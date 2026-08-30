@@ -1,0 +1,48 @@
+name: 行业观测每日自动运行
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # UTC 22:00 = 北京时间 06:00 (中国无夏令时)
+  workflow_dispatch: {}    # 支持在 Actions 页面手动触发
+
+permissions:
+  contents: write          # 允许把结果文件提交回仓库
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 恢复数据缓存(行业指标/ROE/成分股)
+        uses: actions/cache@v4
+        with:
+          path: data/industry_cache
+          key: industry-cache-v1
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 构建行业观测数据
+        run: python Industry_Data.py
+
+      - name: 上传结果文件(artifacts 可下载)
+        uses: actions/upload-artifact@v4
+        with:
+          name: industry-observation-${{ github.run_id }}
+          path: data/industry_cache/industry_observation_*
+          if-no-files-found: error
+
+      - name: 提交结果回仓库(按日期留档)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/industry_cache/industry_observation_*.csv \
+                  data/industry_cache/industry_observation_*.json \
+                  data/industry_cache/industry_observation_*.xlsx
+          git diff --cached --quiet || git commit -m "每日行业观测数据 $(date +%Y%m%d)"
+          git push

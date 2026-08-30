@@ -1,0 +1,12 @@
+# 缓存数据不提交仓库(由 GitHub Actions 的 actions/cache 在云端复用)
+data/industry_cache/*
+!data/industry_cache/industry_observation_*.csv
+!data/industry_cache/industry_observation_*.json
+!data/industry_cache/industry_observation_*.xlsx
+
+# 运行日志
+run_daily.log
+
+# Python
+__pycache__/
+*.pyc
