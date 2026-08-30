@@ -10,3 +10,4 @@ run_daily.log
 # Python
 __pycache__/
 *.pyc
+run_log*.txt
