@@ -811,11 +811,13 @@ class IndustryObserver:
         output_csv = self.cache_dir / "industry_observation.csv"
         output_json = self.cache_dir / "industry_observation.json"
         output_xlsx = self.cache_dir / "industry_observation.xlsx"
-        # 带日期的归档版本(每日定时任务按日期留档)
+        # 带日期的归档版本(每日定时任务按日期子文件夹留档)
         dated = datetime.now().strftime('%Y%m%d')
-        dated_csv = self.cache_dir / f"industry_observation_{dated}.csv"
-        dated_json = self.cache_dir / f"industry_observation_{dated}.json"
-        dated_xlsx = self.cache_dir / f"industry_observation_{dated}.xlsx"
+        dated_dir = self.cache_dir / dated
+        dated_dir.mkdir(parents=True, exist_ok=True)
+        dated_csv = dated_dir / "industry_observation.csv"
+        dated_json = dated_dir / "industry_observation.json"
+        dated_xlsx = dated_dir / "industry_observation.xlsx"
         df.to_csv(output_csv, index=False, encoding='utf-8-sig')
         df.to_json(output_json, orient='records', force_ascii=False, indent=2)
         df.to_csv(dated_csv, index=False, encoding='utf-8-sig')
@@ -823,7 +825,7 @@ class IndustryObserver:
         try:
             df.to_excel(output_xlsx, index=False)
             df.to_excel(dated_xlsx, index=False)
-            print(f"  Excel: {output_xlsx}  /  {dated_xlsx}")
+            print(f"  Excel: {output_xlsx}  /  {dated_dir}/")
         except Exception as e:
             print(f"  [警告] Excel 输出失败（需 pip install openpyxl）: {e}")
 

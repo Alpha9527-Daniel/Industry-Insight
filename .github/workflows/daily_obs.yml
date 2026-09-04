@@ -34,15 +34,18 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: industry-observation-${{ github.run_id }}
-          path: data/industry_cache/industry_observation_*
+          path: |
+            data/industry_cache/*/industry_observation.csv
+            data/industry_cache/*/industry_observation.json
+            data/industry_cache/*/industry_observation.xlsx
           if-no-files-found: error
 
       - name: 提交结果回仓库(按日期留档)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/industry_cache/industry_observation_*.csv \
-                  data/industry_cache/industry_observation_*.json \
-                  data/industry_cache/industry_observation_*.xlsx
+          git add data/industry_cache/*/industry_observation.csv \
+                  data/industry_cache/*/industry_observation.json \
+                  data/industry_cache/*/industry_observation.xlsx
           git diff --cached --quiet || git commit -m "每日行业观测数据 $(date +%Y%m%d)"
           git push
