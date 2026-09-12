@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Industry-Insight · 申万一级行业观察</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="brand">
+    <div class="brand-mark">II</div>
+    <div class="brand-text">
+      <div class="brand-name">Industry-Insight</div>
+      <div class="brand-sub">SW L1 SECTOR MONITOR</div>
+    </div>
+  </div>
+  <nav class="nav">
+    <a class="nav-item active" href="#/" data-code="">
+      <span class="nav-dot"></span>行业总览
+    </a>
+    <div class="nav-section">行业 · <span id="nav-count">31</span></div>
+    <div id="industry-nav"></div>
+  </nav>
+  <div class="sidebar-foot"><span id="foot-updated">--</span></div>
+</aside>
+
+<main class="main">
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1 id="page-title">行业总览</h1>
+      <div class="page-sub" id="page-sub">估值 · 拥挤 · 景气 · 动量</div>
+    </div>
+    <div class="topbar-right">
+      <span class="chip chip-valuation">估值</span>
+      <span class="chip chip-crowd">拥挤</span>
+      <span class="chip chip-prosperity">景气</span>
+      <span class="chip chip-momentum">动量</span>
+      <span class="data-date" id="data-date">--</span>
+    </div>
+  </header>
+  <section id="view-home" class="view"></section>
+  <section id="view-industry" class="view hidden"></section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

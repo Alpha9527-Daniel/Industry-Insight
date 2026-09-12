@@ -30,6 +30,9 @@ jobs:
       - name: 构建行业观测数据
         run: python Industry_Data.py
 
+      - name: 构建看板数据(Industry-Insight)
+        run: python export_dashboard.py
+
       - name: 上传结果文件(artifacts 可下载)
         uses: actions/upload-artifact@v4
         with:
@@ -46,6 +49,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/industry_cache/*/industry_observation.csv \
                   data/industry_cache/*/industry_observation.json \
-                  data/industry_cache/*/industry_observation.xlsx
+                  data/industry_cache/*/industry_observation.xlsx \
+                  docs/data
           git diff --cached --quiet || git commit -m "每日行业观测数据 $(date +%Y%m%d)"
           git push
