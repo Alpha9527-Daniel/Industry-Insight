@@ -593,6 +593,10 @@
       sel.appendChild(o);
     });
     sel.value = state.day || '';
+    if (!sel.dataset.bound) {   // 只绑一次,重复渲染时不重复绑定
+      sel.dataset.bound = '1';
+      sel.addEventListener('change', function () { switchDate(this.value); });
+    }
   }
 
   function switchDate(ds) {

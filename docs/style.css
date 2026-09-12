@@ -189,6 +189,10 @@ th.sort-asc .sort-icon, th.sort-desc .sort-icon { opacity: 1; }
 }
 .grid tbody tr:hover td:first-child { background: #18233a; }
 
+/* 行业列只占内容所需宽度(约 100px),省下的横向空间全部让给 13 个指标列 */
+.grid thead th:first-child,
+.grid tbody td:first-child { width: 1%; white-space: nowrap; }
+
 .ind-link { color: var(--text-primary); text-decoration: none; display: flex; align-items: center; gap: 6px; }
 .ind-link:hover { color: #93c5fd; }
 .ind-link .code { font-family: 'JetBrains Mono', monospace; font-size: 9.5px; color: var(--text-muted); font-weight: 500; }
