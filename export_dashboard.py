@@ -38,6 +38,7 @@ DAILY_DIR = OUT_DIR / "daily"
 HISTORY_YEARS = 10      # 走势图回溯年数
 MAX_NEWS_PER_IND = 12   # 每个行业保留的资讯条数
 MAX_ETF_PER_IND = 8     # 每个行业保留的 ETF 条数
+RETENTION_DAYS = 730    # 每日快照保留期(缓存日期目录 + 看板 historical JSON)
 
 # 看板 13 列 <- 源 CSV 列名映射(与 Industry_Data.py 的输出列对应)
 COLUMN_MAP = {
@@ -182,6 +183,7 @@ def export_daily_archives(today_payload: dict | None) -> list[str]:
     数据源是 Industry_Data.py 按日期留档的 data/industry_cache/{YYYYMMDD}/。
     """
     DAILY_DIR.mkdir(parents=True, exist_ok=True)
+    prune_old_snapshots()      # 先清理过期快照,再据此生成可选日期列表
     dates: list[str] = []
 
     for d in sorted(p for p in CACHE_DIR.glob('[0-9]' * 8) if p.is_dir()):
@@ -215,6 +217,38 @@ def export_daily_archives(today_payload: dict | None) -> list[str]:
     else:
         log("  dates.json: 无历史快照(仅最新一日可选)")
     return dates
+
+
+def prune_old_snapshots() -> int:
+    """只保留最近 RETENTION_DAYS 天的快照
+
+    删两处:data/industry_cache/{YYYYMMDD}/(每日 3 个文件,长期会撑大仓库)
+    和 docs/data/daily/{YYYYMMDD}.json(日期选择器的历史选项)。
+    注意:工作缓存(hist_*.csv / roe/ / 指标日报表)不在此列 —— 分位数依赖
+    它们的 5 年滚动序列,删了会算不出结果。
+    """
+    import shutil
+    from datetime import timedelta
+
+    cutoff_int = int((datetime.now() - timedelta(days=RETENTION_DAYS)).strftime('%Y%m%d'))
+    removed = 0
+
+    for d in CACHE_DIR.glob('[0-9]' * 8):
+        if d.is_dir() and d.name.isdigit() and int(d.name) < cutoff_int:
+            shutil.rmtree(d, ignore_errors=True)
+            removed += 1
+
+    for f in DAILY_DIR.glob('*.json'):
+        if f.stem.isdigit() and len(f.stem) == 8 and int(f.stem) < cutoff_int:
+            try:
+                f.unlink()
+                removed += 1
+            except OSError:
+                pass
+
+    if removed:
+        log(f"  清理: 删除 {removed} 个超过 {RETENTION_DAYS} 天的快照")
+    return removed
 
 
 # --------------------------------------------------------------- history/*.json

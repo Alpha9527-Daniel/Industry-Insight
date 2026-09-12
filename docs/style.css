@@ -271,8 +271,21 @@ th.sort-asc .sort-icon, th.sort-desc .sort-icon { opacity: 1; }
 .tooltip .tt-row { display: flex; justify-content: space-between; gap: 14px; }
 .tooltip .tt-k { color: var(--text-secondary); }
 
-/* 指标卡片网格 */
-.metric-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; }
+/* 指标卡片网格:第一行 5 列,第二行分位数与第一行上下对齐 */
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+.metric-grid .mcol-1 { grid-column: 1; }
+.metric-grid .mcol-2 { grid-column: 2; }
+.metric-grid .mcol-4 { grid-column: 4; }
+.metric-pct .metric-value { font-size: 17px; }
+.metric-pct .metric-sub { margin-top: 2px; }
+@media (max-width: 1100px) {
+  .metric-grid { grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+  .metric-grid .mcol-1, .metric-grid .mcol-2, .metric-grid .mcol-4 { grid-column: auto; }
+}
 .metric {
   background: var(--bg-tertiary); border: 1px solid var(--border-soft);
   border-radius: 8px; padding: 10px 12px;

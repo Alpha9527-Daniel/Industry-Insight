@@ -251,7 +251,11 @@
     var closes = idx.map(function (i) { return hist.c[i]; });
     var amts = idx.map(function (i) { return hist.a[i]; });
 
-    var W = 1000, H = 240, PAD_L = 54, PAD_R = 12, PAD_T = 10, PAD_B = 18;
+    // 画布宽度取容器实测像素宽:viewBox 与实际像素 1:1 时不会被 preserveAspectRatio
+    // 等比缩放后水平居中(否则图看起来比容器窄,而鼠标仍按整宽换算,对不上)
+    var hostW = host.getBoundingClientRect().width || host.clientWidth || 1000;
+    var W = Math.max(360, Math.round(hostW));
+    var H = 240, PAD_L = 54, PAD_R = 12, PAD_T = 10, PAD_B = 18;
     var VOL_H = 60, GAP = 16;
     var plotW = W - PAD_L - PAD_R;
 
@@ -330,7 +334,10 @@
     var svgNS = 'http://www.w3.org/2000/svg';
     var svg = document.createElementNS(svgNS, 'svg');
     svg.setAttribute('viewBox', '0 0 ' + W + ' ' + totalH);
+    svg.setAttribute('width', '100%');
     svg.setAttribute('height', totalH);
+    // 不用默认的等比留白:窗口变化时图形仍铺满容器,鼠标换算与显示始终一致
+    svg.setAttribute('preserveAspectRatio', 'none');
     svg.innerHTML =
       '<defs><linearGradient id="' + gradId + '" x1="0" y1="0" x2="0" y2="1">' +
       '<stop offset="0%" stop-color="' + lineColor + '" stop-opacity="0.26"/>' +
@@ -463,34 +470,49 @@
     card.innerHTML = '<div class="card-title">估值 · 景气</div>';
 
     var grid = el('div', 'metric-grid');
-    var metrics = [
-      { label: 'PE RATIO (TTM)', value: num(ind.pe, 2), suffix: 'x', sub: '估值水平' },
-      { label: 'PE 分位数 (5Y)', value: num(ind.pePct, 1), sub: '越高越贵', pbarV: ind.pePct, invert: false },
-      { label: 'ROE (TTM)', value: num(ind.roe, 2), suffix: '%', sub: '盈利水平' },
-      { label: 'ROE 同比', value: signed(ind.roeYoY, 2), suffix: '%', sub: '盈利趋势', boxV: ind.roeYoY },
-      { label: 'ROE 分位数 (5Y)', value: num(ind.roePct, 1), sub: '越高越景气', pbarV: ind.roePct, invert: true },
-      { label: 'ROE_Cap (TTM)', value: num(ind.roeCap, 2), suffix: '%', sub: '市值加权盈利' },
-      { label: 'ROE_Cap 同比', value: signed(ind.roeCapYoY, 2), suffix: '%', sub: '市值加权趋势', boxV: ind.roeCapYoY },
-      { label: 'ROE_Cap 分位数 (5Y)', value: num(ind.roeCapPct, 1), sub: '越高越景气', pbarV: ind.roeCapPct, invert: true }
-    ];
-    metrics.forEach(function (m) {
-      var cell = el('div', 'metric');
+
+    function cell(m) {
+      var c = el('div', 'metric');
       var style = '';
       if (m.boxV !== undefined) {
         style = 'color:' + (m.boxV > 0 ? 'var(--green)' : (m.boxV < 0 ? 'var(--red)' : 'inherit'));
       }
       var shown = (m.value === null) ? '--' : (m.value + (m.suffix || ''));
-      cell.innerHTML = '<div class="metric-label">' + esc(m.label) + '</div>' +
+      c.innerHTML = '<div class="metric-label">' + esc(m.label) + '</div>' +
         '<div class="metric-value" style="' + style + '">' + esc(shown) + '</div>' +
         '<div class="metric-sub">' + esc(m.sub) + '</div>';
       if (m.pbarV !== undefined) {
         var pb = el('div');
         pb.style.marginTop = '7px';
         pb.innerHTML = pbar(m.pbarV, m.invert);
-        cell.appendChild(pb);
+        c.appendChild(pb);
       }
-      grid.appendChild(cell);
+      return c;
+    }
+
+    // 第一行(5 列):PE / ROE / ROE同比 / ROE_Cap / ROE_Cap同比
+    [
+      { label: 'PE RATIO (TTM)', value: num(ind.pe, 2), suffix: 'x', sub: '估值水平' },
+      { label: 'ROE (TTM)', value: num(ind.roe, 2), suffix: '%', sub: '盈利水平' },
+      { label: 'ROE 同比', value: signed(ind.roeYoY, 2), suffix: '%', sub: '盈利趋势', boxV: ind.roeYoY },
+      { label: 'ROE_CAP (TTM)', value: num(ind.roeCap, 2), suffix: '%', sub: '市值加权盈利' },
+      { label: 'ROE_CAP 同比', value: signed(ind.roeCapYoY, 2), suffix: '%', sub: '市值加权趋势', boxV: ind.roeCapYoY }
+    ].forEach(function (m) { grid.appendChild(cell(m)); });
+
+    // 第二行:分位数方块与第一行上下对齐(PE→列1、ROE→列2、ROE_Cap→列4)
+    [
+      { col: 1, label: 'PE 分位数 (5Y)', pct: ind.pePct, invert: false, sub: '越高越贵' },
+      { col: 2, label: 'ROE 分位数 (5Y)', pct: ind.roePct, invert: true, sub: '越高越景气' },
+      { col: 4, label: 'ROE_CAP 分位数 (5Y)', pct: ind.roeCapPct, invert: true, sub: '越高越景气' }
+    ].forEach(function (it) {
+      var c = cell({
+        label: it.label, value: num(it.pct, 1), sub: it.sub,
+        pbarV: it.pct, invert: it.invert
+      });
+      c.classList.add('metric-pct', 'mcol-' + it.col);
+      grid.appendChild(c);
     });
+
     card.appendChild(grid);
     return card;
   }
