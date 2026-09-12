@@ -37,8 +37,15 @@
     if (s === null) return null;
     return (Number(v) > 0 ? '+' : '') + s;
   }
+  /* 数据文件一律带时间戳请求:GitHub Pages 的 CDN 会把"新增路径的 404"缓存一段时间
+     (dates.json / daily/ 都是新增路径),不绕这一层会出现"下拉能点、选了没反应"。
+     history/ 体积大且内容稳定,留给浏览器缓存。 */
   function loadJSON(path) {
-    return fetch(DATA + path, { cache: 'no-cache' }).then(function (r) {
+    var url = DATA + path;
+    if (path.indexOf('history/') !== 0) {
+      url += (path.indexOf('?') >= 0 ? '&' : '?') + 'v=' + Date.now();
+    }
+    return fetch(url, { cache: 'no-cache' }).then(function (r) {
       if (!r.ok) throw new Error(path + ' HTTP ' + r.status);
       return r.json();
     });
@@ -598,9 +605,13 @@
       document.title = 'Industry-Insight · ' + dayLabel(ds);
       if (state.current) renderIndustry(state.current);   // 行业页指标卡同步切换
       else renderHomeView();
-    }).catch(function () {
-      if ($('#date-picker')) $('#date-picker').value = state.day;   // 取数失败则回滚选择
-      if ($('#foot-updated')) $('#foot-updated').textContent = '数据 ' + dayLabel(state.day);
+    }, function (e) {
+      // 失败要看得见:静默回滚会让人以为"选了没反应"
+      if ($('#date-picker')) $('#date-picker').value = state.day;
+      if ($('#foot-updated')) {
+        $('#foot-updated').textContent =
+          '数据 ' + dayLabel(state.day) + ' · 切换失败:' + (e && e.message ? e.message : '未知错误');
+      }
     });
   }
 
