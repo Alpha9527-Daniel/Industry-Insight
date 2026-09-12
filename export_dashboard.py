@@ -7,10 +7,12 @@ Industry-Insight 看板数据导出
 供 GitHub Pages 上的 docs/index.html 直接读取(零后端)。
 
 输出:
-  docs/data/latest.json          31 个行业 x 13 指标(首页大表)
+  docs/data/latest.json          31 个行业 x 13 指标(首页大表,最新一日)
+  docs/data/dates.json           可回看的交易日列表(右上角日期选择器)
+  docs/data/daily/{YYYYMMDD}.json  各交易日快照(与 latest.json 同结构)
   docs/data/history/{code}.json  近 10 年收盘价 + 成交额(行业页走势图)
   docs/data/etf.json             行业 -> 相关 ETF(关键词匹配)
-  docs/data/news.json            行业 -> 相关资讯(财联社 + 东财,合并去重)
+  docs/data/news.json            行业 -> 相关资讯(东财 + 同花顺 + 新浪,合并去重)
 
 用法:
   python export_dashboard.py                 # 全量(含联网抓取 ETF/资讯)
@@ -31,6 +33,7 @@ ROOT = Path(__file__).resolve().parent
 CACHE_DIR = ROOT / "data" / "industry_cache"
 OUT_DIR = ROOT / "docs" / "data"
 HISTORY_DIR = OUT_DIR / "history"
+DAILY_DIR = OUT_DIR / "daily"
 
 HISTORY_YEARS = 10      # 走势图回溯年数
 MAX_NEWS_PER_IND = 12   # 每个行业保留的资讯条数
@@ -127,13 +130,8 @@ def write_json(path: Path, payload, indent: int | None = 2) -> None:
 
 
 # ---------------------------------------------------------------- latest.json
-def export_latest() -> dict | None:
-    """行业快照:13 个指标 + 模型/分析师意见"""
-    df = read_csv_safe(CACHE_DIR / "industry_observation.csv")
-    if df is None or df.empty:
-        log("  [跳过] industry_observation.csv 不存在")
-        return None
-
+def build_industries(df: pd.DataFrame) -> list[dict]:
+    """观测表 -> 看板记录(13 指标 + 模型/分析师意见)"""
     industries = []
     for _, row in df.iterrows():
         rec = {
@@ -149,15 +147,74 @@ def export_latest() -> dict | None:
         industries.append(rec)
 
     industries.sort(key=lambda r: r['code'])
-    payload = {
-        'date': datetime.now().strftime('%Y-%m-%d'),
+    return industries
+
+
+def build_payload(df: pd.DataFrame, date_str: str) -> dict:
+    """看板数据体(与 latest.json 同结构,前端一套渲染逻辑通吃)"""
+    industries = build_industries(df)
+    return {
+        'date': date_str,
         'updated': datetime.now().strftime('%Y-%m-%d %H:%M'),
         'count': len(industries),
         'industries': industries,
     }
+
+
+def export_latest() -> dict | None:
+    """最新一日的行业快照"""
+    df = read_csv_safe(CACHE_DIR / "industry_observation.csv")
+    if df is None or df.empty:
+        log("  [跳过] industry_observation.csv 不存在")
+        return None
+
+    payload = build_payload(df, datetime.now().strftime('%Y-%m-%d'))
     write_json(OUT_DIR / 'latest.json', payload)
-    log(f"  latest.json: {len(industries)} 个行业")
+    log(f"  latest.json: {payload['count']} 个行业")
     return payload
+
+
+# ---------------------------------------------------------------- daily/*.json
+def export_daily_archives(today_payload: dict | None) -> list[str]:
+    """历史每日快照 -> docs/data/daily/{YYYYMMDD}.json + docs/data/dates.json
+
+    前端右上角日期选择器据此工作:默认最新一日,可回看任意已归档交易日。
+    数据源是 Industry_Data.py 按日期留档的 data/industry_cache/{YYYYMMDD}/。
+    """
+    DAILY_DIR.mkdir(parents=True, exist_ok=True)
+    dates: list[str] = []
+
+    for d in sorted(p for p in CACHE_DIR.glob('[0-9]' * 8) if p.is_dir()):
+        df = read_csv_safe(d / 'industry_observation.csv')
+        if df is None or df.empty:
+            continue
+        ds = d.name
+        write_json(DAILY_DIR / f"{ds}.json",
+                   build_payload(df, f"{ds[:4]}-{ds[4:6]}-{ds[6:]}"),
+                   indent=None)
+        dates.append(ds)
+
+    # 扁平的最新快照也留一份档,保证选择器里"最新一日"始终可选。
+    # 归属到最近一个已归档交易日(扁平文件就是那次运行的产物),
+    # 避免在当日任务还没跑时凭空造出一个没有数据的"今天"。
+    if today_payload:
+        ds = dates[-1] if dates else datetime.now().strftime('%Y%m%d')
+        today_payload['date'] = f"{ds[:4]}-{ds[4:6]}-{ds[6:]}"   # 与归档标签保持一致
+        write_json(DAILY_DIR / f"{ds}.json", today_payload, indent=None)
+        if ds not in dates:
+            dates.append(ds)
+
+    dates = sorted(set(dates))
+    write_json(OUT_DIR / 'dates.json', {
+        'dates': dates,
+        'labels': {d: f"{d[:4]}-{d[4:6]}-{d[6:]}" for d in dates},
+        'latest': dates[-1] if dates else None,
+    })
+    if dates:
+        log(f"  dates.json: {len(dates)} 个交易日快照 ({dates[0]} ~ {dates[-1]})")
+    else:
+        log("  dates.json: 无历史快照(仅最新一日可选)")
+    return dates
 
 
 # --------------------------------------------------------------- history/*.json
@@ -201,7 +258,19 @@ def export_history(skip_network: bool) -> int:
             'c': [round(float(v), 2) for v in df['收盘']],
             'a': [round(float(v), 2) if pd.notna(v) else None for v in amount],
         }
-        write_json(HISTORY_DIR / f"{code}.json", payload, indent=None)
+
+        # 不用更短的序列覆盖已有文件:离线模式读到的是被裁到 5 年的缓存,
+        # 放任覆盖会把 10 年走势图缩水成 5 年
+        prev = HISTORY_DIR / f"{code}.json"
+        if prev.exists():
+            try:
+                with open(prev, encoding='utf-8') as f:
+                    if len(json.load(f).get('d', [])) > len(payload['d']):
+                        continue
+            except Exception:
+                pass
+
+        write_json(prev, payload, indent=None)
         ok += 1
     log(f"  history/: {ok} 个行业")
     return ok
@@ -408,6 +477,7 @@ def main() -> int:
         log("[中止] 缺少 industry_observation.csv,请先运行 Industry_Data.py")
         return 1
 
+    export_daily_archives(latest)
     export_history(args.skip_network)
     export_etf(args.skip_network)
     export_news(args.skip_network)

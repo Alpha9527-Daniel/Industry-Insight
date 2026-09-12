@@ -106,11 +106,25 @@ html, body {
 .chip-crowd { background: rgba(245, 158, 11, .12); color: var(--amber); }
 .chip-prosperity { background: var(--green-dim); color: var(--green); }
 .chip-momentum { background: rgba(139, 92, 246, .12); color: var(--violet); }
-.data-date {
-  font-family: 'JetBrains Mono', monospace; font-size: 11px;
-  color: var(--text-secondary); margin-left: 6px;
-  padding: 3px 8px; background: var(--bg-tertiary); border-radius: 5px;
+/* 右上角数据日期选择器 */
+.date-picker { display: flex; align-items: center; gap: 6px; margin-left: 6px; }
+.date-picker label {
+  font-size: 9.5px; font-weight: 700; letter-spacing: .8px;
+  text-transform: uppercase; color: var(--text-muted);
 }
+.date-picker select {
+  appearance: none; -webkit-appearance: none;
+  font-family: 'JetBrains Mono', monospace; font-size: 11px;
+  color: var(--text-primary); background-color: var(--bg-tertiary);
+  border: 1px solid var(--border); border-radius: 5px;
+  padding: 4px 24px 4px 9px; cursor: pointer; outline: none;
+  transition: border-color .12s, background-color .12s;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='6' viewBox='0 0 9 6'%3E%3Cpath d='M1 1l3.5 3.5L8 1' stroke='%2394a3b8' stroke-width='1.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 8px center;
+}
+.date-picker select:hover { border-color: #334155; background-color: var(--bg-hover); }
+.date-picker select:focus { border-color: #2563eb; }
+.date-picker select option { background: var(--bg-secondary); color: var(--text-primary); }
 
 .view { padding: 16px 20px 40px; }
 .hidden { display: none !important; }

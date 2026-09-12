@@ -9,7 +9,10 @@
     news: null,
     sort: { key: null, dir: 'desc' },
     range: 3,          // 走势图区间(年)
-    current: null      // 当前行业代码
+    current: null,     // 当前行业代码
+    dates: [],         // 可回看的交易日 ['20260830', …]
+    labels: {},        // 交易日 -> 'YYYY-MM-DD'
+    day: null          // 当前查看的交易日
   };
 
   /* ------------------------------------------------------------ 工具函数 */
@@ -547,6 +550,38 @@
     return card;
   }
 
+  /* ------------------------------------------------------------ 日期选择器 */
+  function dayLabel(ds) { return state.labels[ds] || ds || ''; }
+
+  function buildDatePicker() {
+    var sel = $('#date-picker');
+    if (!sel) return;
+    sel.innerHTML = '';
+    state.dates.forEach(function (ds) {
+      var o = el('option');
+      o.value = ds;
+      o.textContent = dayLabel(ds);
+      sel.appendChild(o);
+    });
+    sel.value = state.day || '';
+  }
+
+  function switchDate(ds) {
+    if (!ds || ds === state.day) return;
+    loadJSON('daily/' + ds + '.json').then(function (payload) {
+      state.day = ds;
+      state.latest = payload;
+      delete $('#view-home').dataset.ready;      // 强制重建大表
+      $('#foot-updated').textContent = '数据 ' + dayLabel(ds);
+      document.title = 'Industry-Insight · ' + dayLabel(ds);
+      if (state.current) renderIndustry(state.current);   // 行业页指标卡同步切换
+      else renderHomeView();
+    }).catch(function () {
+      if ($('#date-picker')) $('#date-picker').value = state.day;   // 取数失败则回滚选择
+      if ($('#foot-updated')) $('#foot-updated').textContent = '数据 ' + dayLabel(state.day);
+    });
+  }
+
   /* ------------------------------------------------------------ 视图切换 */
   function renderHomeView() {
     $('#page-title').textContent = '行业总览';
@@ -576,15 +611,27 @@
     Promise.all([
       loadJSON('latest.json'),
       loadJSON('etf.json').catch(function () { return { industries: {} }; }),
-      loadJSON('news.json').catch(function () { return { industries: {} }; })
+      loadJSON('news.json').catch(function () { return { industries: {} }; }),
+      loadJSON('dates.json').catch(function () { return { dates: [], labels: {} }; })
     ]).then(function (res) {
       state.latest = res[0];
       state.etf = res[1];
       state.news = res[2];
+      state.dates = (res[3].dates || []).slice();
+      state.labels = res[3].labels || {};
+      state.day = res[3].latest || state.dates[state.dates.length - 1] || '';
 
-      var d = state.latest.date || '';
-      $('#data-date').textContent = d;
-      $('#foot-updated').textContent = '更新 ' + (state.latest.updated || d);
+      // 兜底:没有 dates.json 时,至少让选择器里有最新一日
+      if (!state.dates.length && state.latest.date) {
+        var only = String(state.latest.date).replace(/-/g, '');
+        state.dates = [only];
+        state.labels[only] = state.latest.date;
+        state.day = only;
+      }
+
+      var d = dayLabel(state.day) || state.latest.date || '';
+      buildDatePicker();
+      $('#foot-updated').textContent = '数据 ' + d;
       document.title = 'Industry-Insight · ' + d;
       buildNav(state.latest.industries);
       renderHomeView();
