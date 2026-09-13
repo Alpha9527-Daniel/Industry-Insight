@@ -298,6 +298,18 @@ th.sort-asc .sort-icon, th.sort-desc .sort-icon { opacity: 1; }
 .metric-value { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 600; line-height: 1.1; }
 .metric-sub { font-size: 10px; color: var(--text-muted); margin-top: 4px; font-family: 'JetBrains Mono', monospace; }
 
+/* 页脚:免责声明与数据来源(公开页面必须让读者看到信息来源与风险提示) */
+.site-foot {
+  margin: 26px 0 10px; padding-top: 14px;
+  border-top: 1px solid var(--border-soft);
+  font-size: 11px; line-height: 1.75; color: var(--text-muted);
+}
+.site-foot p { margin: 0 0 6px; }
+.site-foot strong { color: var(--text-secondary); font-weight: 600; }
+.site-foot em { color: var(--amber); font-style: normal; }
+.site-foot a { color: var(--text-secondary); text-decoration: underline; text-underline-offset: 2px; }
+.site-foot a:hover { color: var(--accent); }
+
 /* 两栏 */
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; }
 @media (max-width: 1180px) { .two-col { grid-template-columns: 1fr; } }

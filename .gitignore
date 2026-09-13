@@ -12,3 +12,6 @@ run_daily.log
 __pycache__/
 *.pyc
 run_log*.txt
+
+# 人工意见表:默认全是"平配"占位值,Industry_Data.py 缺失时会自动重建,不随仓库公开
+分析师意见.xlsx

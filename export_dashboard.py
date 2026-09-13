@@ -142,7 +142,8 @@ def build_industries(df: pd.DataFrame) -> list[dict]:
         for out_key, src_col in COLUMN_MAP.items():
             rec[out_key] = to_num(row.get(src_col)) if src_col in df.columns else None
         # 附加:意见与总分(首页可选展示)
-        for extra in ('模型意见', '分析师意见', '模型总得分', 'PE分位数得分',
+        # 不导出「分析师意见」:它来自人工维护的 分析师意见.xlsx,不随本项目公开
+        for extra in ('模型意见', '模型总得分', 'PE分位数得分',
                       '换手率分位数得分', 'ROE同比得分', '动量得分', '行业A股占比_pct'):
             rec[extra] = row.get(extra) if extra in df.columns else None
         industries.append(rec)
@@ -478,13 +479,18 @@ def export_news(skip_network: bool) -> None:
     # 按行业关键词归类(一条资讯可同时属于多个行业)
     by_ind: dict[str, list] = {code: [] for code in INDUSTRY_KEYWORDS}
     for it in items:
-        text = it['title'] + ' ' + it.get('summary', '')
+        text = it['title'] + ' ' + it.get('summary', '')   # 摘要仅用于归类匹配,不对外发布
         for code, keywords in INDUSTRY_KEYWORDS.items():
             if any(kw in text for kw in keywords):
                 by_ind[code].append(it)
 
+    # 对外只发布「标题 + 时间 + 来源 + 原文链接」:
+    # 摘要是他人作品的正文片段,公开转载有版权风险;标题通常不构成独立作品,
+    # 且已附原文链接,读者点开即可看到全文。
     for code in by_ind:
-        by_ind[code] = by_ind[code][:MAX_NEWS_PER_IND]
+        by_ind[code] = [{'title': i['title'], 'time': i['time'],
+                         'source': i['source'], 'url': i['url']}
+                        for i in by_ind[code][:MAX_NEWS_PER_IND]]
 
     write_json(OUT_DIR / 'news.json', {
         'updated': datetime.now().strftime('%Y-%m-%d %H:%M'),
