@@ -141,9 +141,11 @@ def build_industries(df: pd.DataFrame) -> list[dict]:
         }
         for out_key, src_col in COLUMN_MAP.items():
             rec[out_key] = to_num(row.get(src_col)) if src_col in df.columns else None
-        # 附加:意见与总分(首页可选展示)
+        # 附加:得分与权重(首页可选展示)
         # 不导出「分析师意见」:它来自人工维护的 分析师意见.xlsx,不随本项目公开
-        for extra in ('模型意见', '模型总得分', 'PE分位数得分',
+        # 不导出「模型意见」:它是本模型的配置结论(高配/平配/低配),带有建议性质;
+        # 公开页面只呈现客观指标与分位数,不发布这类结论,以免被当作投资建议传播
+        for extra in ('模型总得分', 'PE分位数得分',
                       '换手率分位数得分', 'ROE同比得分', '动量得分', '行业A股占比_pct'):
             rec[extra] = row.get(extra) if extra in df.columns else None
         industries.append(rec)
