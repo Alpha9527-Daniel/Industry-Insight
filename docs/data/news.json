@@ -1,896 +1,715 @@
 {
-  "updated": "2026-09-28 00:22",
-  "total": 234,
+  "updated": "2026-09-28 22:16",
+  "total": 230,
   "industries": {
-    "801010": [],
+    "801010": [
+      {
+        "title": "SpaceX：星舰14即将启动单台猛禽发动机进行点火以进入约275公里的地球轨道",
+        "time": "2026-09-28 21:16:32",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885421912.html"
+      }
+    ],
     "801030": [
       {
-        "title": "中金：能源价格上涨或推动中间品出口",
-        "time": "2026-09-28 07:41:58",
+        "title": "国轩高科海外“落子” 深度绑定大众汽车集团",
+        "time": "2026-09-29 00:09:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884567891.html"
+        "url": "https://finance.eastmoney.com/a/202609283885511360.html"
+      },
+      {
+        "title": "国内部分商品期货夜盘收盘 主力合约跌多涨少",
+        "time": "2026-09-28 23:00:22",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885548442.html"
       }
     ],
     "801040": [
       {
-        "title": "全球矿产资源供需格局深度调整",
-        "time": "2026-09-28 07:53:49",
+        "title": "美国总统特朗普宣布在美国爱荷华州建设全美规模最大的工厂",
+        "time": "2026-09-29 02:29:21",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884554734.html"
+        "url": "https://finance.eastmoney.com/a/202609293885597848.html"
+      },
+      {
+        "title": "报道：特朗普将公布计划中的150亿美元爱荷华钢铁项目",
+        "time": "2026-09-28 20:52:41",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885395628.html"
+      },
+      {
+        "title": "大中矿业：子公司金日晟矿业重新集铁矿发生安全事故致2人死亡",
+        "time": "2026-09-28 20:47:36",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885390523.html"
       }
     ],
     "801050": [
       {
-        "title": "全球矿产资源供需格局深度调整",
-        "time": "2026-09-28 07:53:49",
+        "title": "国际贵金属期货普遍收跌 COMEX黄金期货跌4%",
+        "time": "2026-09-29 05:03:25",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884554734.html"
+        "url": "https://finance.eastmoney.com/a/202609293885611655.html"
       },
       {
-        "title": "国金证券：市场趋势性机会仍不明确 结构性应对仍是主要思路",
-        "time": "2026-09-28 07:49:51",
+        "title": "美股三大指数集体收跌 光通信、存储芯片板块跌幅居前",
+        "time": "2026-09-29 04:00:38",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884570126.html"
+        "url": "https://finance.eastmoney.com/a/202609293885605253.html"
       },
       {
-        "title": "金价回落叠加节日促销 黄金零售市场迎来消费旺季",
-        "time": "2026-09-28 07:35:00",
+        "title": "德银警示铜市陷入供应流动性危机：铜价半年涨幅或超50%",
+        "time": "2026-09-29 02:16:39",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884540645.html"
+        "url": "https://finance.eastmoney.com/a/202609293885597524.html"
       },
       {
-        "title": "持牌消金公司赋能假日经济 激发消费潜力",
-        "time": "2026-09-28 07:32:00",
+        "title": "德意志银行：供应短缺或令铜价半年内上涨超过50%",
+        "time": "2026-09-29 00:23:19",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884540330.html"
+        "url": "https://finance.eastmoney.com/a/202609293885580239.html"
       },
       {
-        "title": "公募前瞻四季度权益市场 A股结构性机会显现",
-        "time": "2026-09-28 07:23:00",
+        "title": "碳酸锂大跌 什么情况？",
+        "time": "2026-09-29 00:17:14",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884542488.html"
+        "url": "https://finance.eastmoney.com/a/202609283885516047.html"
       },
       {
-        "title": "周一开盘 现货黄金价格涨0.27% 报4285.12美元/盎司",
-        "time": "2026-09-28 06:05:55",
+        "title": "停牌前大涨！三峡新材筹划重大资产重组",
+        "time": "2026-09-29 00:10:38",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884557169.html"
+        "url": "https://finance.eastmoney.com/a/202609283885521132.html"
       },
       {
-        "title": "硅业分会再度发布多晶硅周度成交价：多晶硅成交均价站上4万元/吨",
-        "time": "2026-09-28 01:30:30",
+        "title": "国轩高科海外“落子” 深度绑定大众汽车集团",
+        "time": "2026-09-29 00:09:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884543140.html"
+        "url": "https://finance.eastmoney.com/a/202609283885511360.html"
       },
       {
-        "title": "康强电子：原材料成本对公司营业收入影响较大",
-        "time": "2026-09-27 17:44:07",
+        "title": "现货黄金日内跌幅扩大至4% 报4110.92美元/盎司",
+        "time": "2026-09-28 22:59:12",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884472056.html"
+        "url": "https://finance.eastmoney.com/a/202609283885548361.html"
       },
       {
-        "title": "恩捷股份：控股子公司拟11.5亿元收购湖北恩捷45%股权",
-        "time": "2026-09-27 16:35:47",
+        "title": "美股黄金矿业板块盘初下挫",
+        "time": "2026-09-28 21:46:47",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884464734.html"
+        "url": "https://finance.eastmoney.com/a/202609283885469525.html"
       },
       {
-        "title": "金银河：拟定增募资不超15亿元 用于钠离子电池、消费锂电池、固液电池及新型储能电池高端智能装备产业化等项目",
-        "time": "2026-09-27 16:06:16",
+        "title": "三峡新材：筹划购买锂电池电解液公司珠海赛纬不低于53.14%股份 股票停牌",
+        "time": "2026-09-28 19:51:11",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884459291.html"
+        "url": "https://finance.eastmoney.com/a/202609283885356092.html"
+      },
+      {
+        "title": "【固态电池产业化迎利好，温等静压等专用设备成关键抓手】采访获悉，全固态电池被视作锂电产业变革的核心方向，2027年至20",
+        "time": "2026-09-29 06:15:45",
+        "source": "新浪财经",
+        "url": ""
       }
     ],
     "801080": [
       {
-        "title": "澜起科技成功量产DDR5第五子代RCD芯片",
-        "time": "2026-09-28 08:19:52",
+        "title": "美股三大指数集体收跌 光通信、存储芯片板块跌幅居前",
+        "time": "2026-09-29 04:00:38",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884578037.html"
+        "url": "https://finance.eastmoney.com/a/202609293885605253.html"
       },
       {
-        "title": "中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气",
-        "time": "2026-09-28 08:19:01",
+        "title": "拟合计斥资349亿元！长鑫科技官宣投建两大新项目",
+        "time": "2026-09-29 00:36:56",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884577697.html"
+        "url": "https://finance.eastmoney.com/a/202609283885528235.html"
       },
       {
-        "title": "中信建投：阿里展示一站式AI方案 算力+应用双提升",
-        "time": "2026-09-28 08:12:08",
+        "title": "园林股份“跨界”存储 拟收购华澜微93.5%股份",
+        "time": "2026-09-29 00:12:44",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884576433.html"
+        "url": "https://finance.eastmoney.com/a/202609283885512474.html"
       },
       {
-        "title": "系统协同打通智能增长链路",
-        "time": "2026-09-28 07:52:50",
+        "title": "停牌前大涨！三峡新材筹划重大资产重组",
+        "time": "2026-09-29 00:10:38",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884555850.html"
+        "url": "https://finance.eastmoney.com/a/202609283885521132.html"
       },
       {
-        "title": "长川科技拟“A+H”上市 海外业务提速",
-        "time": "2026-09-28 07:42:33",
+        "title": "美股芯片股多数走低 ARM跌近10% 费城半导体指数跌3%",
+        "time": "2026-09-28 22:50:24",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884548017.html"
+        "url": "https://finance.eastmoney.com/a/202609283885539581.html"
       },
       {
-        "title": "景气修复叠加预期扭转 医药主题基金霸榜季度业绩",
-        "time": "2026-09-28 07:11:29",
+        "title": "美股存储板块集体走低 SK海力士、闪迪跌超5%",
+        "time": "2026-09-28 22:18:55",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884544616.html"
+        "url": "https://finance.eastmoney.com/a/202609283885511526.html"
       },
       {
-        "title": "高收益与高溢价并存 QDII基金呼吁“保持谨慎”",
-        "time": "2026-09-28 02:46:17",
+        "title": "美股半导体板块多数下跌 高通跌超7%",
+        "time": "2026-09-28 21:57:52",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884546061.html"
+        "url": "https://finance.eastmoney.com/a/202609283885481224.html"
       },
       {
-        "title": "粤芯半导体中签率公布：0.0424%",
-        "time": "2026-09-28 00:35:40",
+        "title": "美股CPU双雄跌幅扩大：AMD跌3% 英特尔跌5%",
+        "time": "2026-09-28 21:48:07",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884514116.html"
+        "url": "https://finance.eastmoney.com/a/202609283885471819.html"
       },
       {
-        "title": "奥拓电子：注销全资孙公司前海奥拓体育",
-        "time": "2026-09-27 19:44:23",
+        "title": "长鑫科技：拟241亿元、108亿元分别投建技术研发项目、存储器晶圆后道测试基地二期项目",
+        "time": "2026-09-28 21:29:03",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884483713.html"
+        "url": "https://finance.eastmoney.com/a/202609283885431666.html"
       },
       {
-        "title": "北斗星通：新增与北斗智联关联交易及使用5亿元自有资金理财",
-        "time": "2026-09-27 19:44:00",
+        "title": "粤芯半导体：中签号码共有358848个",
+        "time": "2026-09-28 20:36:55",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884483425.html"
+        "url": "https://finance.eastmoney.com/a/202609283885384527.html"
       },
       {
-        "title": "康强电子：原材料成本对公司营业收入影响较大",
-        "time": "2026-09-27 17:44:07",
+        "title": "高通评估三星2纳米制程 或用于下一代芯片生产",
+        "time": "2026-09-28 20:18:56",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884472056.html"
+        "url": "https://finance.eastmoney.com/a/202609283885373917.html"
       },
       {
-        "title": "中信证券：预计26Q3电子行业在AI趋势浪潮下整体业绩维持高景气",
-        "time": "2026-09-27 23:57:37",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290338.shtml"
+        "title": "杰普特：拟7000万元增资控股子公司奥杰微电子 开拓高精密PCB超快激光钻孔加工市场",
+        "time": "2026-09-28 20:05:27",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885363988.html"
       }
     ],
-    "801110": [],
+    "801110": [
+      {
+        "title": "国家电投集团掌握完全自主化的核电厂全范围模拟机技术",
+        "time": "2026-09-28 21:42:27",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885466054.html"
+      }
+    ],
     "801120": [
       {
-        "title": "中信建投：旺季临近 关注白酒超跌个股和三季报绩优方向",
-        "time": "2026-09-28 08:12:08",
+        "title": "美国食品药品监督管理局批准艾伯维的JUVMO用于治疗帕金森病",
+        "time": "2026-09-28 20:01:10",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884576179.html"
-      },
-      {
-        "title": "新股提示：联亚药业、北交所南方乳业今日申购",
-        "time": "2026-09-28 07:02:23",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884563492.html"
-      },
-      {
-        "title": "【中信建投：旺季临近，关注白酒超跌个股和三季报绩优方向】中信建投研报表示，中秋白酒旺季呈现结构性分化，高端韧性突出，次高",
-        "time": "2026-09-28 08:11:07",
-        "source": "新浪财经",
-        "url": ""
+        "url": "https://finance.eastmoney.com/a/202609283885360550.html"
       }
     ],
     "801130": [],
     "801140": [],
     "801150": [
       {
-        "title": "植入式脑机接口：从临床突破迈向产业化落地",
-        "time": "2026-09-28 07:48:16",
+        "title": "美股整体下跌之际中概股多数上涨 网易涨超5%",
+        "time": "2026-09-28 23:10:10",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884552840.html"
+        "url": "https://finance.eastmoney.com/a/202609283885553650.html"
       },
       {
-        "title": "公募前瞻四季度权益市场 A股结构性机会显现",
-        "time": "2026-09-28 07:23:00",
+        "title": "上海思璞锐医药与默沙东达成全球独家授权 首付款4亿美元",
+        "time": "2026-09-28 19:59:39",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884542488.html"
-      },
-      {
-        "title": "景气修复叠加预期扭转 医药主题基金霸榜季度业绩",
-        "time": "2026-09-28 07:11:29",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884544616.html"
-      },
-      {
-        "title": "达安基因：子公司取得游离前列腺特异性抗原测定试剂盒医疗器械注册证",
-        "time": "2026-09-27 19:44:05",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884483943.html"
-      },
-      {
-        "title": "华东医药：创新GLP-1靶点口服小分子激动剂HDM1002片减重Ⅲ期研究获得积极顶线结果",
-        "time": "2026-09-27 16:15:17",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884462728.html"
-      },
-      {
-        "title": "和黄医药：2026年9月24日HMPL-A830首名患者给药",
-        "time": "2026-09-28 00:02:08",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290380.shtml"
-      },
-      {
-        "title": "基金画风切换 医药主题基金霸榜季度业绩",
-        "time": "2026-09-27 23:26:37",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290157.shtml"
+        "url": "https://finance.eastmoney.com/a/202609283885360447.html"
       }
     ],
     "801160": [
       {
-        "title": "系统协同打通智能增长链路",
-        "time": "2026-09-28 07:52:50",
+        "title": "国家电投集团掌握完全自主化的核电厂全范围模拟机技术",
+        "time": "2026-09-28 21:42:27",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884555850.html"
-      },
-      {
-        "title": "景气修复叠加预期扭转 医药主题基金霸榜季度业绩",
-        "time": "2026-09-28 07:11:29",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884544616.html"
-      },
-      {
-        "title": "基金画风切换 医药主题基金霸榜季度业绩",
-        "time": "2026-09-27 23:26:37",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290157.shtml"
+        "url": "https://finance.eastmoney.com/a/202609283885466054.html"
       }
     ],
-    "801170": [
-      {
-        "title": "海南省政府召开专题会议 研究全省“六张网”建设项目储备工作",
-        "time": "2026-09-27 23:29:47",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290173.shtml"
-      },
-      {
-        "title": "智能体成人工智能增长新引擎 算力跃升为国家战略基础设施",
-        "time": "2026-09-28 04:13:32",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884548142.html"
-      },
-      {
-        "title": "9月26日全社会跨区域人员流动量19946.2万人次",
-        "time": "2026-09-27 17:39:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884471858.html"
-      },
-      {
-        "title": "全国铁路迎来中秋假期返程客流高峰：9月27日预计发送旅客1686万人次",
-        "time": "2026-09-27 16:36:05",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884464568.html"
-      },
-      {
-        "title": "【美国波音公司：737MAX部分飞机着陆系统存在故障】波音737 MAX又出新故障，这一次问题出现在飞机着陆这一关键环节",
-        "time": "2026-09-28 08:22:35",
-        "source": "新浪财经",
-        "url": ""
-      }
-    ],
+    "801170": [],
     "801180": [
       {
-        "title": "重点领域风险化解有序推进",
-        "time": "2026-09-28 07:50:51",
+        "title": "国常会重磅部署！推出一批增量政策 事关盘活地方债、稳楼市、促增收",
+        "time": "2026-09-29 00:05:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884554548.html"
-      },
-      {
-        "title": "“8·28”新政满月 房企从“抢开盘”到“抢竣备”",
-        "time": "2026-09-28 02:46:25",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884545036.html"
+        "url": "https://finance.eastmoney.com/a/202609283885517175.html"
       }
     ],
     "801200": [
       {
-        "title": "金价回落叠加节日促销 黄金零售市场迎来消费旺季",
-        "time": "2026-09-28 07:35:00",
+        "title": "广汽集团：拟购买一汽丰田50%股权 股票复牌",
+        "time": "2026-09-28 20:57:52",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884540645.html"
-      },
-      {
-        "title": "同比增长6.7% 中秋假期四川线下消费达342.5亿元",
-        "time": "2026-09-28 07:30:49",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884566980.html"
-      },
-      {
-        "title": "步长制药：拟向控股子公司步长驰骋商贸增资",
-        "time": "2026-09-27 21:08:54",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884491626.html"
-      },
-      {
-        "title": "中秋假期消费市场需求旺盛 智能、绿色商品销售火热",
-        "time": "2026-09-27 19:12:59",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884480050.html"
+        "url": "https://finance.eastmoney.com/a/202609283885397721.html"
       }
     ],
     "801210": [
       {
-        "title": "《中国科学院“十五五”发展规划》发布",
-        "time": "2026-09-28 08:14:02",
+        "title": "北京：推动人工智能、云计算等在文旅领域广泛应用",
+        "time": "2026-09-28 19:51:09",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884576725.html"
+        "url": "https://finance.eastmoney.com/a/202609283885354236.html"
       },
       {
-        "title": "中秋假期北京累计接待游客878.3万人次",
-        "time": "2026-09-27 22:10:33",
+        "title": "北京：建设京津冀文旅协同发展毗邻区 推动京津冀城市群文旅一体化发展",
+        "time": "2026-09-28 19:50:32",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884515238.html"
-      },
-      {
-        "title": "中秋假期消费市场需求旺盛 智能、绿色商品销售火热",
-        "time": "2026-09-27 19:12:59",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884480050.html"
-      },
-      {
-        "title": "杭州发布暴雨黄色预警",
-        "time": "2026-09-27 18:18:31",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884475088.html"
-      },
-      {
-        "title": "聚焦抢占科技制高点核心任务 《中国科学院“十五五”发展规划》发布",
-        "time": "2026-09-28 00:13:03",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290467.shtml"
-      },
-      {
-        "title": "【《中国科学院“十五五”发展规划》发布】记者9月28日从中国科学院获悉，《中国科学院“十五五”发展规划》近日正式发布",
-        "time": "2026-09-28 08:13:14",
-        "source": "新浪财经",
-        "url": ""
+        "url": "https://finance.eastmoney.com/a/202609283885353895.html"
       }
     ],
     "801230": [
       {
-        "title": "长川科技拟“A+H”上市 海外业务提速",
-        "time": "2026-09-28 07:42:33",
+        "title": "A股又遇“假期综合征” 回调正是布局良机？机构这样看",
+        "time": "2026-09-29 00:07:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884548017.html"
+        "url": "https://finance.eastmoney.com/a/202609283885541323.html"
       },
       {
-        "title": "央行第三季度货币政策例会：综合运用并适时调整货币政策工具",
-        "time": "2026-09-28 00:10:46",
+        "title": "国常会重磅部署！推出一批增量政策 事关盘活地方债、稳楼市、促增收",
+        "time": "2026-09-29 00:05:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884517687.html"
-      },
-      {
-        "title": "金盾股份：近期合计中标8063.39万元项目",
-        "time": "2026-09-27 16:11:34",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884461579.html"
+        "url": "https://finance.eastmoney.com/a/202609283885517175.html"
       }
     ],
-    "801710": [
+    "801710": [],
+    "801720": [],
+    "801730": [
       {
-        "title": "英伟达加码玻璃基板 产业链落地进度有望超预期",
-        "time": "2026-09-28 08:11:43",
+        "title": "固态电池迎利好！七部门联合印发新型电池产业发展“十五五”规划",
+        "time": "2026-09-29 00:12:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884571960.html"
+        "url": "https://finance.eastmoney.com/a/202609283885559054.html"
       },
       {
-        "title": "巨头出手！英伟达持续加码玻璃基板",
-        "time": "2026-09-28 00:06:17",
+        "title": "停牌前大涨！三峡新材筹划重大资产重组",
+        "time": "2026-09-29 00:10:38",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884517869.html"
-      }
-    ],
-    "801720": [
-      {
-        "title": "欧晶科技：子公司以9715.12万元竞得银川厂房资产",
-        "time": "2026-09-27 19:44:28",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884484637.html"
+        "url": "https://finance.eastmoney.com/a/202609283885521132.html"
       },
       {
-        "title": "达安基因：子公司取得游离前列腺特异性抗原测定试剂盒医疗器械注册证",
-        "time": "2026-09-27 19:44:05",
+        "title": "国轩高科海外“落子” 深度绑定大众汽车集团",
+        "time": "2026-09-29 00:09:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884483943.html"
+        "url": "https://finance.eastmoney.com/a/202609283885511360.html"
       },
       {
-        "title": "金盾股份：近期合计中标8063.39万元项目",
-        "time": "2026-09-27 16:11:34",
+        "title": "安徽：补齐机器人核心零部件短板 重点发展高精密传感器、减速器等高价值环节",
+        "time": "2026-09-28 20:26:10",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884461579.html"
+        "url": "https://finance.eastmoney.com/a/202609283885379792.html"
       },
       {
-        "title": "京蓝科技：拟以公开网络拍卖方式转让中科鼎实77.7152%股权及相关债权",
-        "time": "2026-09-27 16:09:00",
+        "title": "三峡新材：筹划购买锂电池电解液公司珠海赛纬不低于53.14%股份 股票停牌",
+        "time": "2026-09-28 19:51:11",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884459311.html"
+        "url": "https://finance.eastmoney.com/a/202609283885356092.html"
       },
       {
-        "title": "中信建投：政策资金加快落地，地方引导建企参与“六张网”建设",
-        "time": "2026-09-27 23:30:23",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290189.shtml"
-      },
-      {
-        "title": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agent",
-        "time": "2026-09-28 08:11:09",
+        "title": "【固态电池产业化迎利好，温等静压等专用设备成关键抓手】采访获悉，全固态电池被视作锂电产业变革的核心方向，2027年至20",
+        "time": "2026-09-29 06:15:45",
         "source": "新浪财经",
         "url": ""
       }
     ],
-    "801730": [
-      {
-        "title": "绿色与AI加速融合 中国轨道交通技术亮相柏林",
-        "time": "2026-09-28 07:49:16",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884547450.html"
-      },
-      {
-        "title": "海南省政府召开专题会议 研究全省“六张网”建设项目储备工作",
-        "time": "2026-09-27 23:29:47",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290173.shtml"
-      },
-      {
-        "title": "智能体成人工智能增长新引擎 算力跃升为国家战略基础设施",
-        "time": "2026-09-28 04:13:32",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884548142.html"
-      },
-      {
-        "title": "金银河：拟募资不超15亿元加码电池产业",
-        "time": "2026-09-28 00:25:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884514017.html"
-      },
-      {
-        "title": "集泰股份：液冷硅油2026年上半年未实现任何销售 产品目前处于内部应用验证阶段",
-        "time": "2026-09-27 17:46:07",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884472223.html"
-      },
-      {
-        "title": "金银河：拟定增募资不超15亿元 用于钠离子电池、消费锂电池、固液电池及新型储能电池高端智能装备产业化等项目",
-        "time": "2026-09-27 16:06:16",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884459291.html"
-      }
-    ],
     "801740": [
       {
-        "title": "俄称打击乌方通信设施和海军基地",
-        "time": "2026-09-27 17:32:20",
+        "title": "波兰将允许军机依据雷达等信息超视距击落外国飞机",
+        "time": "2026-09-29 02:11:46",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884471784.html"
+        "url": "https://finance.eastmoney.com/a/202609293885597368.html"
       },
       {
-        "title": "以军称空袭黎南部多处真主党目标",
-        "time": "2026-09-27 17:20:34",
+        "title": "美“星舰”实现首次地球轨道飞行 但提前结束任务",
+        "time": "2026-09-29 01:04:43",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884471339.html"
+        "url": "https://finance.eastmoney.com/a/202609293885586421.html"
       },
       {
-        "title": "以防长称近期禁止巴勒斯坦工人进入约旦河西岸社区",
-        "time": "2026-09-27 16:56:23",
+        "title": "以军称打击黎南部真主党基础设施",
+        "time": "2026-09-29 00:52:18",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884466579.html"
+        "url": "https://finance.eastmoney.com/a/202609293885584248.html"
+      },
+      {
+        "title": "欧盟未能就向乌克兰提供更多“爱国者”导弹达成一致",
+        "time": "2026-09-29 00:50:32",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609293885584124.html"
+      },
+      {
+        "title": "俄罗斯计划在2027年用于国防的支出将达到17.1万亿卢布",
+        "time": "2026-09-29 00:04:32",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609293885577422.html"
+      },
+      {
+        "title": "SpaceX宣布：已与星舰首次轨道飞行中部署的全部26颗星链V3卫星建立通信连接",
+        "time": "2026-09-28 23:02:32",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885551138.html"
+      },
+      {
+        "title": "知情人士：伊朗导弹致伤8名美军人员",
+        "time": "2026-09-28 22:23:54",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885515487.html"
+      },
+      {
+        "title": "SpaceX：星舰火箭上的全部26颗卫星已在轨部署",
+        "time": "2026-09-28 21:55:09",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885476946.html"
+      },
+      {
+        "title": "SpaceX“星舰”首次成功进入地球轨道",
+        "time": "2026-09-28 21:20:29",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885423054.html"
+      },
+      {
+        "title": "美星舰首次尝试入轨失败",
+        "time": "2026-09-28 21:10:29",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885421058.html"
+      },
+      {
+        "title": "SpaceX周一计划首次尝试将星舰飞船送入地球轨道",
+        "time": "2026-09-28 19:45:49",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885352160.html"
+      },
+      {
+        "title": "波兰军方：一无人机在波乌边境附近坠毁",
+        "time": "2026-09-28 18:55:11",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20260929/c680336468.shtml"
       }
     ],
     "801750": [
       {
-        "title": "中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气",
-        "time": "2026-09-28 08:19:01",
+        "title": "据报道：OpenAI因安全问题取消发布新的人工智能模型",
+        "time": "2026-09-29 06:02:34",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884577697.html"
+        "url": "https://finance.eastmoney.com/a/202609293885619160.html"
       },
       {
-        "title": "《中国科学院“十五五”发展规划》发布",
-        "time": "2026-09-28 08:14:02",
+        "title": "美联储巴尔金表示：低失业率是支撑消费的关键因素 不能说人工智能对利率压力完全免疫",
+        "time": "2026-09-29 01:36:13",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884576725.html"
+        "url": "https://finance.eastmoney.com/a/202609293885594561.html"
       },
       {
-        "title": "中信建投：阿里展示一站式AI方案 算力+应用双提升",
-        "time": "2026-09-28 08:12:08",
+        "title": "美联储理事库克：预计未来几个月将继续面临来自人工智能和中东冲突的通胀压力",
+        "time": "2026-09-29 01:26:17",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884576433.html"
+        "url": "https://finance.eastmoney.com/a/202609293885591177.html"
       },
       {
-        "title": "系统协同打通智能增长链路",
-        "time": "2026-09-28 07:52:50",
+        "title": "纽约市议长称：OpenAI、Anthropic和谷歌均同意出席人工智能安全和监管的听证会",
+        "time": "2026-09-29 01:11:41",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884555850.html"
+        "url": "https://finance.eastmoney.com/a/202609293885588041.html"
       },
       {
-        "title": "绿色与AI加速融合 中国轨道交通技术亮相柏林",
-        "time": "2026-09-28 07:49:16",
+        "title": "8月斩获46亿大单后 蜂助手再签57亿算力大单",
+        "time": "2026-09-29 00:12:10",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884547450.html"
+        "url": "https://finance.eastmoney.com/a/202609283885511119.html"
       },
       {
-        "title": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-        "time": "2026-09-27 23:47:06",
+        "title": "AI热潮带来强劲现金流 英伟达宣布追加1500亿美元股票回购",
+        "time": "2026-09-29 00:03:27",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885534470.html"
+      },
+      {
+        "title": "扎克伯格：Meta推出企业平台 向企业和开发者开放AI技术",
+        "time": "2026-09-28 20:41:36",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885387130.html"
+      },
+      {
+        "title": "OpenAI发言人：首席战略官Jason Kwon将于10月6日出席澳大利亚人工智能联合专责委员会",
+        "time": "2026-09-28 20:20:32",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885373778.html"
+      },
+      {
+        "title": "黄仁勋表示新软件是面向智能体的浏览器",
+        "time": "2026-09-28 20:07:05",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885364290.html"
+      },
+      {
+        "title": "北京：推动人工智能、云计算等在文旅领域广泛应用",
+        "time": "2026-09-28 19:51:09",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885354236.html"
+      },
+      {
+        "title": "OpenAI因安全问题取消发布新的人工智能模型",
+        "time": "2026-09-28 22:03:12",
         "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290272.shtml"
-      },
-      {
-        "title": "长川科技拟“A+H”上市 海外业务提速",
-        "time": "2026-09-28 07:42:33",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884548017.html"
-      },
-      {
-        "title": "由“根”处发力 国产算力“破壁”",
-        "time": "2026-09-28 07:41:39",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884547873.html"
-      },
-      {
-        "title": "海光信息深耕端侧赛道 助力工业算力国产化升级",
-        "time": "2026-09-28 07:37:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884541036.html"
-      },
-      {
-        "title": "海南省政府召开专题会议 研究全省“六张网”建设项目储备工作",
-        "time": "2026-09-27 23:29:47",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290173.shtml"
-      },
-      {
-        "title": "算力市场需求持续旺盛",
-        "time": "2026-09-28 07:29:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884540118.html"
-      },
-      {
-        "title": "公募前瞻四季度权益市场 A股结构性机会显现",
-        "time": "2026-09-28 07:23:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884542488.html"
+        "url": "https://news.10jqka.com.cn/20260929/c680336822.shtml"
       }
     ],
-    "801760": [
-      {
-        "title": "多家影视上市公司集中布局国庆档",
-        "time": "2026-09-28 07:38:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884540296.html"
-      },
-      {
-        "title": "爱奇艺辟谣：网传“请勿眨眼”截图系恶搞",
-        "time": "2026-09-28 07:20:44",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884565893.html"
-      },
-      {
-        "title": "国内首部AI院线电影正式定档 《三星堆：未来往事》将于10月23日登陆全国院线",
-        "time": "2026-09-28 00:02:40",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884537830.html"
-      },
-      {
-        "title": "慈文传媒：获890万元政府补助",
-        "time": "2026-09-27 16:51:48",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884466344.html"
-      },
-      {
-        "title": "华数传媒：获准注册20亿元超短期融资券",
-        "time": "2026-09-27 16:36:23",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884464644.html"
-      }
-    ],
+    "801760": [],
     "801770": [
       {
-        "title": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-        "time": "2026-09-27 23:47:06",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290272.shtml"
-      },
-      {
-        "title": "由“根”处发力 国产算力“破壁”",
-        "time": "2026-09-28 07:41:39",
+        "title": "美股三大指数集体收跌 光通信、存储芯片板块跌幅居前",
+        "time": "2026-09-29 04:00:38",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884547873.html"
+        "url": "https://finance.eastmoney.com/a/202609293885605253.html"
       },
       {
-        "title": "海南省政府召开专题会议 研究全省“六张网”建设项目储备工作",
-        "time": "2026-09-27 23:29:47",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290173.shtml"
-      },
-      {
-        "title": "景气修复叠加预期扭转 医药主题基金霸榜季度业绩",
-        "time": "2026-09-28 07:11:29",
+        "title": "SpaceX宣布：已与星舰首次轨道飞行中部署的全部26颗星链V3卫星建立通信连接",
+        "time": "2026-09-28 23:02:32",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884544616.html"
-      },
-      {
-        "title": "加码“追光”！汇绿生态控股子公司拟扩充光模块产能",
-        "time": "2026-09-28 00:30:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884489496.html"
-      },
-      {
-        "title": "中国信通院何阳：我国初步具备开展算力期货研究条件",
-        "time": "2026-09-27 18:52:53",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884478926.html"
-      },
-      {
-        "title": "俄称打击乌方通信设施和海军基地",
-        "time": "2026-09-27 17:32:20",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884471784.html"
-      },
-      {
-        "title": "汇绿生态：拟3.09亿元投建钧恒科技研发生产基地项目 新增年产200万支高速率光模块生产线",
-        "time": "2026-09-27 16:46:47",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884466138.html"
-      },
-      {
-        "title": "基金画风切换 医药主题基金霸榜季度业绩",
-        "time": "2026-09-27 23:26:37",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290157.shtml"
+        "url": "https://finance.eastmoney.com/a/202609283885551138.html"
       }
     ],
     "801780": [
       {
-        "title": "9月28日投资避雷针：5连板人气股遭上交所下发监管函",
-        "time": "2026-09-28 08:21:36",
+        "title": "德银警示铜市陷入供应流动性危机：铜价半年涨幅或超50%",
+        "time": "2026-09-29 02:16:39",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884577085.html"
+        "url": "https://finance.eastmoney.com/a/202609293885597524.html"
       },
       {
-        "title": "金融产品网络营销监管收紧 头部平台密集清退违规账号",
-        "time": "2026-09-28 07:44:25",
+        "title": "俄罗斯延长天然气卢布结算令至2027年4月1日",
+        "time": "2026-09-29 01:44:01",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884547773.html"
+        "url": "https://finance.eastmoney.com/a/202609293885594968.html"
       },
       {
-        "title": "读懂央行汇率表述的变与不变",
-        "time": "2026-09-28 07:21:00",
+        "title": "德意志银行：供应短缺或令铜价半年内上涨超过50%",
+        "time": "2026-09-29 00:23:19",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884542379.html"
+        "url": "https://finance.eastmoney.com/a/202609293885580239.html"
       },
       {
-        "title": "中小银行密集增资抵御风险",
-        "time": "2026-09-28 05:45:49",
+        "title": "美国证券交易委员会（SEC）表示：私募信贷的估值需要“特别谨慎”对待",
+        "time": "2026-09-28 23:25:35",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884555174.html"
+        "url": "https://finance.eastmoney.com/a/202609283885563694.html"
       },
       {
-        "title": "Blick报道称多家大型银行表示有兴趣与瑞银合并",
-        "time": "2026-09-28 03:24:47",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884547095.html"
-      },
-      {
-        "title": "央行第三季度货币政策例会：综合运用并适时调整货币政策工具",
-        "time": "2026-09-28 00:10:46",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884517687.html"
-      },
-      {
-        "title": "深圳华强：控股子公司拟开展不超30亿元应收账款无追索权保理业务",
-        "time": "2026-09-27 19:44:17",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884483535.html"
-      },
-      {
-        "title": "华数传媒：获准注册20亿元超短期融资券",
-        "time": "2026-09-27 16:36:23",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884464644.html"
+        "title": "亚投行第十一届理事会年会在卡塔尔开幕",
+        "time": "2026-09-28 19:01:36",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20260929/c680336474.shtml"
       }
     ],
     "801790": [
       {
-        "title": "中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气",
-        "time": "2026-09-28 08:19:01",
+        "title": "停牌前大涨！三峡新材筹划重大资产重组",
+        "time": "2026-09-29 00:10:38",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884577697.html"
+        "url": "https://finance.eastmoney.com/a/202609283885521132.html"
       },
       {
-        "title": "国金证券：市场趋势性机会仍不明确 结构性应对仍是主要思路",
-        "time": "2026-09-28 07:49:51",
+        "title": "印度证券交易委员会宣布：已终止对阿达尼集团旗下公司及集团创始人高塔姆·阿达尼在公众持股比例违规一案中的相关程序",
+        "time": "2026-09-28 23:31:01",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884570126.html"
+        "url": "https://finance.eastmoney.com/a/202609283885566695.html"
       },
       {
-        "title": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-        "time": "2026-09-27 23:47:06",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290272.shtml"
+        "title": "美国证券交易委员会（SEC）表示：私募信贷的估值需要“特别谨慎”对待",
+        "time": "2026-09-28 23:25:35",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885563694.html"
       },
       {
-        "title": "未获利也要重罚 操纵市场红线不可触碰",
-        "time": "2026-09-28 07:28:00",
+        "title": "ST应急：撤销其他风险警示 证券简称变更为中船应急",
+        "time": "2026-09-28 19:51:29",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884540762.html"
-      },
-      {
-        "title": "监管部门明确险资投资港股通ETF监管口径",
-        "time": "2026-09-28 07:25:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884542175.html"
-      },
-      {
-        "title": "多家公司首次发布ESG报告 信托行业亮出转型成绩单",
-        "time": "2026-09-28 06:46:33",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884560946.html"
-      },
-      {
-        "title": "“持股过节”成机构主流建议 科技仍是市场中期主线",
-        "time": "2026-09-28 06:18:48",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884543551.html"
-      },
-      {
-        "title": "三季度新增专项债发行提速",
-        "time": "2026-09-28 01:20:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884541647.html"
-      },
-      {
-        "title": "十大券商策略：年内最后一波进攻窗口 优先高确定性低估值资产",
-        "time": "2026-09-28 00:31:27",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884532196.html"
-      },
-      {
-        "title": "加码“追光”！汇绿生态控股子公司拟扩充光模块产能",
-        "time": "2026-09-28 00:30:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884489496.html"
-      },
-      {
-        "title": "中信证券：三季报前后是年内最后一波进攻窗口",
-        "time": "2026-09-27 19:33:09",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884483268.html"
-      },
-      {
-        "title": "中信证券：维持年内A股震荡市的判断 三季报前后是年内最后一波进攻窗口",
-        "time": "2026-09-27 19:19:29",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884481746.html"
+        "url": "https://finance.eastmoney.com/a/202609283885355875.html"
       }
     ],
-    "801880": [],
+    "801880": [
+      {
+        "title": "国轩高科海外“落子” 深度绑定大众汽车集团",
+        "time": "2026-09-29 00:09:00",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885511360.html"
+      },
+      {
+        "title": "复牌！广汽集团拟收购一汽丰田50%股权 “南北丰田”整合迎来关键时刻",
+        "time": "2026-09-29 00:01:54",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885566089.html"
+      },
+      {
+        "title": "纳斯达克中国金龙指数涨幅扩大至1.1%",
+        "time": "2026-09-28 23:51:36",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885573965.html"
+      },
+      {
+        "title": "美股整体下跌之际中概股多数上涨 网易涨超5%",
+        "time": "2026-09-28 23:10:10",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885553650.html"
+      },
+      {
+        "title": "特朗普政府预测：由于燃油经济性标准下调 通用汽车到2031年的技术合规成本将总计减少204亿美元",
+        "time": "2026-09-28 22:28:39",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885519346.html"
+      },
+      {
+        "title": "广汽集团：拟购买一汽丰田50%股权 股票复牌",
+        "time": "2026-09-28 20:57:52",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885397721.html"
+      },
+      {
+        "title": "安徽：支持产业链转型 引导汽车企业向机器人重点领域跨界布局",
+        "time": "2026-09-28 20:28:42",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885379628.html"
+      },
+      {
+        "title": "【固态电池产业化迎利好，温等静压等专用设备成关键抓手】采访获悉，全固态电池被视作锂电产业变革的核心方向，2027年至20",
+        "time": "2026-09-29 06:15:45",
+        "source": "新浪财经",
+        "url": ""
+      }
+    ],
     "801890": [
       {
-        "title": "中国四足机器人再现无人机的全球统治力",
-        "time": "2026-09-28 08:18:08",
+        "title": "AI研发自动化或引发“智能爆炸”！20多名顶尖研究人员呼吁政府加强监管",
+        "time": "2026-09-29 00:18:42",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884481989.html"
+        "url": "https://finance.eastmoney.com/a/202609283885573032.html"
       },
       {
-        "title": "特斯拉已将机器人产量提升约10倍 相关供应链厂商投资机遇凸显",
-        "time": "2026-09-28 08:10:20",
+        "title": "AI行业领袖联合发表声明 警告自动化AI研究可能引发“智能爆炸”",
+        "time": "2026-09-28 22:07:35",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884567494.html"
+        "url": "https://finance.eastmoney.com/a/202609283885502990.html"
       },
       {
-        "title": "海光信息深耕端侧赛道 助力工业算力国产化升级",
-        "time": "2026-09-28 07:37:00",
+        "title": "海目星：拟定增募资不超过22.63亿元 用于先进激光及智能自动化技术研发等项目",
+        "time": "2026-09-28 21:10:31",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884541036.html"
+        "url": "https://finance.eastmoney.com/a/202609283885420760.html"
       },
       {
-        "title": "硬核技术传递柔软关怀：一套外骨骼机器人背后的“智造”密码",
-        "time": "2026-09-28 07:18:18",
+        "title": "安徽：2027年至2030年每年统筹安排5亿元省级财政资金 用于支持机器人关键技术攻关等",
+        "time": "2026-09-28 20:33:35",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884545910.html"
+        "url": "https://finance.eastmoney.com/a/202609283885384475.html"
       },
       {
-        "title": "4连板奥佳华：健康服务机器人相关业务尚处于探索阶段",
-        "time": "2026-09-27 16:40:16",
+        "title": "安徽：支持产业链转型 引导汽车企业向机器人重点领域跨界布局",
+        "time": "2026-09-28 20:28:42",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884465991.html"
+        "url": "https://finance.eastmoney.com/a/202609283885379628.html"
+      },
+      {
+        "title": "安徽：支持机器人企业面向全球并购整合产业链上下游资源",
+        "time": "2026-09-28 20:28:00",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885381343.html"
+      },
+      {
+        "title": "安徽：补齐机器人核心零部件短板 重点发展高精密传感器、减速器等高价值环节",
+        "time": "2026-09-28 20:26:10",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885379792.html"
+      },
+      {
+        "title": "中大力德：拟定增募资不超5.3亿元 用于具身智能关节模组等项目",
+        "time": "2026-09-28 20:11:41",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885367629.html"
+      },
+      {
+        "title": "【固态电池产业化迎利好，温等静压等专用设备成关键抓手】采访获悉，全固态电池被视作锂电产业变革的核心方向，2027年至20",
+        "time": "2026-09-29 06:15:45",
+        "source": "新浪财经",
+        "url": ""
       }
     ],
     "801950": [
       {
-        "title": "9月28日投资避雷针：5连板人气股遭上交所下发监管函",
-        "time": "2026-09-28 08:21:36",
+        "title": "国内商品期货夜盘开盘 主力合约跌多涨少",
+        "time": "2026-09-28 21:00:03",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884577085.html"
-      },
-      {
-        "title": "要求加速扭转煤炭产量下滑趋势！山西省省长开会“督战”煤矿企业有序复产达产",
-        "time": "2026-09-28 08:05:46",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884510879.html"
-      },
-      {
-        "title": "全球矿产资源供需格局深度调整",
-        "time": "2026-09-28 07:53:49",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884554734.html"
+        "url": "https://finance.eastmoney.com/a/202609283885399175.html"
       }
     ],
     "801960": [
       {
-        "title": "事关美国柴油出口禁令！特朗普最新表态：正“非常认真地”考虑此事",
-        "time": "2026-09-28 08:09:01",
+        "title": "美国总统特朗普表示，很快将赢得伊朗战争，油价将大幅下跌",
+        "time": "2026-09-29 02:50:34",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884572246.html"
+        "url": "https://finance.eastmoney.com/a/202609293885600476.html"
       },
       {
-        "title": "全球矿产资源供需格局深度调整",
-        "time": "2026-09-28 07:53:49",
+        "title": "国际原油期货结算价收涨",
+        "time": "2026-09-29 02:31:56",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884554734.html"
+        "url": "https://finance.eastmoney.com/a/202609293885599643.html"
       },
       {
-        "title": "国金证券：市场趋势性机会仍不明确 结构性应对仍是主要思路",
-        "time": "2026-09-28 07:49:51",
+        "title": "据报道 美国考虑对红色染色柴油提供税收减免以降低油价",
+        "time": "2026-09-29 01:55:15",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884570126.html"
+        "url": "https://finance.eastmoney.com/a/202609293885596517.html"
       },
       {
-        "title": "国际柴油价格大涨 经济冲击几何",
-        "time": "2026-09-28 07:45:22",
+        "title": "俄罗斯延长天然气卢布结算令至2027年4月1日",
+        "time": "2026-09-29 01:44:01",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884552545.html"
+        "url": "https://finance.eastmoney.com/a/202609293885594968.html"
       },
       {
-        "title": "中金：能源价格上涨或推动中间品出口",
-        "time": "2026-09-28 07:41:58",
+        "title": "WTI原油期货价格跌超1%",
+        "time": "2026-09-29 01:18:04",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884567891.html"
+        "url": "https://finance.eastmoney.com/a/202609293885589233.html"
       },
       {
-        "title": "周一开盘 WTI原油期货价格涨1.19% 报93.509美元/桶",
-        "time": "2026-09-28 06:05:54",
+        "title": "据知情人士透露：英国石油公司BP考虑出售旗下巴西生物燃油业务",
+        "time": "2026-09-29 01:14:03",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884556965.html"
+        "url": "https://finance.eastmoney.com/a/202609293885588749.html"
       },
       {
-        "title": "特朗普谈美伊战争称 美国很快会赢得这场战争 油价将会下跌",
-        "time": "2026-09-28 04:50:34",
+        "title": "国际原油期货大幅跳水 美油、布油日内转跌",
+        "time": "2026-09-29 00:28:05",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609283884549590.html"
+        "url": "https://finance.eastmoney.com/a/202609293885580685.html"
       },
       {
-        "title": "罕见倒挂！二手超大型油轮（VLCC）比新船贵1500万美元 关注油运受益股",
-        "time": "2026-09-28 00:14:29",
+        "title": "俄罗斯计划在2027年用于国防的支出将达到17.1万亿卢布",
+        "time": "2026-09-29 00:04:32",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884534940.html"
+        "url": "https://finance.eastmoney.com/a/202609293885577422.html"
       },
       {
-        "title": "美国财长贝森特表示：伊朗感受到了压力 所以他们才想达成协议",
-        "time": "2026-09-27 22:27:24",
+        "title": "美国战略石油储备（SPR）的原油库存上周降至2.838亿桶 创1982年以来最低水平",
+        "time": "2026-09-28 23:35:50",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884529923.html"
+        "url": "https://finance.eastmoney.com/a/202609283885569132.html"
       },
       {
-        "title": "二手超大型油轮比新船贵1500万美元 现货油轮遭溢价抢购",
-        "time": "2026-09-27 22:05:53",
+        "title": "国际油价回落 美油涨幅由4%收窄至2%以内",
+        "time": "2026-09-28 21:09:57",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202609273884526117.html"
+        "url": "https://finance.eastmoney.com/a/202609283885418134.html"
       },
       {
-        "title": "期货早报：中美经贸磋商达成多项共识 特朗普预计美伊将在几天内重启谈判！",
-        "time": "2026-09-28 00:00:04",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20260928/c680290353.shtml"
+        "title": "沙特东西输油管道石油输送量约达350万桶/日",
+        "time": "2026-09-28 20:48:53",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609283885392053.html"
       },
       {
-        "title": "随着油价反弹，美国国债收益率上升，5年期国债收益率上涨5个基点",
-        "time": "2026-09-28 08:21:56",
+        "title": "WTI原油日内涨1%，现报93.55美元/桶",
+        "time": "2026-09-29 06:00:02",
         "source": "新浪财经",
         "url": ""
       }
