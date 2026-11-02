@@ -1,940 +1,909 @@
 {
-  "updated": "2026-11-01 00:47",
-  "total": 229,
+  "updated": "2026-11-02 01:24",
+  "total": 235,
   "industries": {
     "801010": [
       {
-        "title": "黑龙江省秋收生产基本结束",
-        "time": "2026-10-31 19:15:20",
+        "title": "自然资源部等三部门联合印发《关于完善设施农用地管理的通知》",
+        "time": "2026-11-02 08:49:44",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917628076.html"
+        "url": "https://finance.eastmoney.com/a/202611023917867389.html"
       },
       {
-        "title": "日本鸡蛋价格再创新高 物价压力持续冲击家庭开支",
-        "time": "2026-10-31 14:37:11",
+        "title": "好空气卖出好价钱",
+        "time": "2026-11-02 08:12:08",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917594382.html"
+        "url": "https://finance.eastmoney.com/a/202611023917830565.html"
       },
       {
-        "title": "上海数据交易所已核发首批15份数据产权登记凭证",
-        "time": "2026-10-31 11:42:00",
+        "title": "生猪养殖行业前三季度业绩承压 行业低谷期上市公司专注修炼“内功”",
+        "time": "2026-11-02 07:45:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917573792.html"
+        "url": "https://finance.eastmoney.com/a/202611013917796311.html"
+      },
+      {
+        "title": "前三季度国有六大行均实现营收净利同比双增",
+        "time": "2026-11-02 07:35:47",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917844891.html"
+      },
+      {
+        "title": "我国将对设施农用地实行差异化管理",
+        "time": "2026-11-02 01:10:46",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681336400.shtml"
       }
     ],
     "801030": [
       {
-        "title": "原中国石油化工集团公司党组书记、董事长傅成玉接受审查调查",
-        "time": "2026-10-31 17:32:25",
+        "title": "国内商品期货早盘开盘 主力合约涨跌不一",
+        "time": "2026-11-02 09:00:06",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917614941.html"
+        "url": "https://finance.eastmoney.com/a/202611023917869811.html"
       },
       {
-        "title": "利好来了！北京重磅发布！事关千亿产业",
-        "time": "2026-10-31 16:27:20",
+        "title": "上游硫磺价格近乎翻倍 三季度磷肥板块盈利承压",
+        "time": "2026-11-02 08:30:52",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917610869.html"
+        "url": "https://finance.eastmoney.com/a/202611013917753988.html"
       },
       {
-        "title": "北京：力争到2030年全市氢能产业链规模突破400亿元",
-        "time": "2026-10-31 11:40:00",
+        "title": "光智科技：6英寸磷化铟衬底已获得某全球头部客户订单",
+        "time": "2026-11-02 08:11:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917573441.html"
+        "url": "https://finance.eastmoney.com/a/202611023917855479.html"
+      },
+      {
+        "title": "期市早盘开盘，国内期货主力合约涨跌互现",
+        "time": "2026-11-02 00:59:57",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681334951.shtml"
       }
     ],
-    "801040": [],
+    "801040": [
+      {
+        "title": "券商三季度合计新进持有85只重仓股 钢铁板块受到较高关注",
+        "time": "2026-11-02 07:39:00",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917819625.html"
+      }
+    ],
     "801050": [
       {
-        "title": "黄金再现大跌！记者实探水贝：买金可以砍价 也有商家加价收金",
-        "time": "2026-11-01 04:50:14",
+        "title": "港股开盘：恒生科技指数涨0.55% 恒生指数涨0.03%",
+        "time": "2026-11-02 09:21:43",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917656911.html"
+        "url": "https://finance.eastmoney.com/a/202611023917878223.html"
       },
       {
-        "title": "我国铼、金、镍、锆等保有资源量大幅增加",
-        "time": "2026-10-31 10:10:31",
+        "title": "国内商品期货早盘开盘 主力合约涨跌不一",
+        "time": "2026-11-02 09:00:06",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917526171.html"
+        "url": "https://finance.eastmoney.com/a/202611023917869811.html"
+      },
+      {
+        "title": "锂业要摆脱资源路径依赖",
+        "time": "2026-11-02 08:09:08",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917831491.html"
+      },
+      {
+        "title": "现货黄金突破3900美元/盎司",
+        "time": "2026-11-02 07:09:11",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917842150.html"
+      },
+      {
+        "title": "AI算力与新能源协同驱动 A股三季报“动能向新”",
+        "time": "2026-11-02 06:36:39",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917826388.html"
+      },
+      {
+        "title": "全球资产遭遇洗盘 国内市场迎来两场重磅会议",
+        "time": "2026-11-02 06:21:18",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611013917762083.html"
+      },
+      {
+        "title": "美国已进入冬令时",
+        "time": "2026-11-02 06:08:50",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917835337.html"
+      },
+      {
+        "title": "10月国际金价高位震荡 黄金主题ETF逆势吸金",
+        "time": "2026-11-02 01:30:00",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917819866.html"
+      },
+      {
+        "title": "上一交易日ETF两市融资融券余额1190.64亿元",
+        "time": "2026-11-02 01:17:07",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681337251.shtml"
+      },
+      {
+        "title": "现货黄金涨超1%",
+        "time": "2026-11-02 01:15:18",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681337149.shtml"
+      },
+      {
+        "title": "现货黄金站上3910美元/盎司",
+        "time": "2026-11-02 01:07:13",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681335990.shtml"
+      },
+      {
+        "title": "期市早盘开盘，国内期货主力合约涨跌互现",
+        "time": "2026-11-02 00:59:57",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681334951.shtml"
       }
     ],
     "801080": [
       {
-        "title": "经济日报：当AI“吞噬”内存",
-        "time": "2026-11-01 06:55:04",
+        "title": "港股开盘：恒生科技指数涨0.55% 恒生指数涨0.03%",
+        "time": "2026-11-02 09:21:43",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202611013917660325.html"
+        "url": "https://finance.eastmoney.com/a/202611023917878223.html"
       },
       {
-        "title": "斥资万亿日元 村田加码MLCC 锚定AI服务器、算力硬件市场",
-        "time": "2026-11-01 00:39:34",
+        "title": "科技记者古尔曼：苹果计划明年淘汰非触屏版MacBook Pro 仅保留14英寸基础款机型",
+        "time": "2026-11-02 09:04:47",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917631887.html"
+        "url": "https://finance.eastmoney.com/a/202611023917872197.html"
       },
       {
-        "title": "英伟达披露下一代CPO技术 原型样品已就位",
-        "time": "2026-10-31 22:12:43",
+        "title": "韩媒：三星首款智能眼镜将于今年12月中旬上市",
+        "time": "2026-11-02 09:02:47",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917652052.html"
+        "url": "https://finance.eastmoney.com/a/202611023917871552.html"
       },
       {
-        "title": "长鑫科技：基于4F2架构的第六代技术平台DRAM完成工程样片验证",
-        "time": "2026-10-31 20:04:33",
+        "title": "传化智联在淄博投资成立资产运营公司",
+        "time": "2026-11-02 08:57:09",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917635428.html"
+        "url": "https://finance.eastmoney.com/a/202611023917869570.html"
       },
       {
-        "title": "国新、诚通出手 三季度加仓名单曝光",
-        "time": "2026-10-31 17:00:00",
+        "title": "当AI开始“造芯” 人类最需要哪种能力？",
+        "time": "2026-11-02 08:52:41",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917614151.html"
+        "url": "https://finance.eastmoney.com/a/202611013917715377.html"
       },
       {
-        "title": "事关氦气，业内最新研判",
-        "time": "2026-10-31 13:58:43",
+        "title": "中信证券：11月仍应以进攻思路寻找结构性机会",
+        "time": "2026-11-02 08:30:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917588381.html"
+        "url": "https://finance.eastmoney.com/a/202611023917860494.html"
       },
       {
-        "title": "半导体设备企业三季报：部分龙头三季度增速放缓",
-        "time": "2026-10-31 10:00:28",
+        "title": "千亿级股票回购增持专项贷款来了 这些公司三季度获国新、诚通加仓",
+        "time": "2026-11-02 08:28:06",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917523467.html"
+        "url": "https://finance.eastmoney.com/a/202611023917850153.html"
       },
       {
-        "title": "华为畅享100系列正式开售",
-        "time": "2026-10-31 09:45:53",
+        "title": "电子皮肤有望打通物理AI最后一厘米 百亿级市场蓄势待发",
+        "time": "2026-11-02 08:28:02",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917522088.html"
+        "url": "https://finance.eastmoney.com/a/202611023917849582.html"
       },
       {
-        "title": "深南电路：FC-BGA类封装基板已具备26层及以下产品批量生产能力",
-        "time": "2026-11-01 00:01:32",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20261101/c681325546.shtml"
+        "title": "京东方A:三季度实际经营表现同环比均保持韧性",
+        "time": "2026-11-02 08:27:00",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917860228.html"
       },
       {
-        "title": "【韩国10月出口同比增长93.7% 芯片出口暴涨259%】韩国10月出口维持强劲增长，人工智能热潮持续拉动这个依赖贸易的",
-        "time": "2026-11-01 08:28:00",
-        "source": "新浪财经",
-        "url": ""
+        "title": "11月2日投资避雷针：上周五纳指收跌2.9% AI交易遭重挫 英特尔跌28%",
+        "time": "2026-11-02 08:26:25",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917858554.html"
+      },
+      {
+        "title": "中信证券：看好中期选举之后美股科技反弹的可能 建议半导体硬件为首要方向",
+        "time": "2026-11-02 08:16:17",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917856160.html"
+      },
+      {
+        "title": "长鑫科技：基于4F架构的第六代技术平台DRAM完成工程样片验证",
+        "time": "2026-11-02 08:01:27",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917852268.html"
       }
     ],
     "801110": [
       {
-        "title": "“电影+体育”不是简单做加法",
-        "time": "2026-11-01 05:40:07",
+        "title": "保加利亚国家电视台1日公布的出口民调显示 现任总统约托娃在当天举行的总统选举第二轮投票中领先",
+        "time": "2026-11-02 03:24:50",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202611013917661286.html"
-      },
-      {
-        "title": "国家电投山东海阳核电项目三期工程开工建设",
-        "time": "2026-10-31 15:41:34",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917597897.html"
+        "url": "https://finance.eastmoney.com/a/202611023917821074.html"
       }
     ],
     "801120": [],
-    "801130": [
-      {
-        "title": "第140届广交会第三期开幕 逾1.2万展商携新品亮相",
-        "time": "2026-10-31 16:42:22",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917609570.html"
-      },
-      {
-        "title": "具身智能缝制机器人在河南发布",
-        "time": "2026-10-31 11:20:20",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917568630.html"
-      }
-    ],
-    "801140": [
-      {
-        "title": "第140届广交会第三期开幕 逾1.2万展商携新品亮相",
-        "time": "2026-10-31 16:42:22",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917609570.html"
-      },
-      {
-        "title": "美国总统在凯旋门问题上表示：这座拱门对华盛顿特区和我们的国家具有非常重要的军事意义",
-        "time": "2026-11-01 08:29:26",
-        "source": "新浪财经",
-        "url": ""
-      }
-    ],
+    "801130": [],
+    "801140": [],
     "801150": [
       {
-        "title": "多毒株活跃 今年流感季提前！最新提示",
-        "time": "2026-11-01 04:10:38",
+        "title": "港股开盘：恒生科技指数涨0.55% 恒生指数涨0.03%",
+        "time": "2026-11-02 09:21:43",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917657191.html"
+        "url": "https://finance.eastmoney.com/a/202611023917878223.html"
       },
       {
-        "title": "美国今年麻疹确诊病例超4000例",
-        "time": "2026-10-31 16:33:23",
+        "title": "华大基因在天津成立生物科技新公司",
+        "time": "2026-11-02 08:56:49",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917609120.html"
+        "url": "https://finance.eastmoney.com/a/202611023917869487.html"
       },
       {
-        "title": "英矽智能联席CEO任峰：冲刺全球首个“十亿美元AI分子”",
-        "time": "2026-10-31 14:28:26",
+        "title": "11月2日投资避雷针：上周五纳指收跌2.9% AI交易遭重挫 英特尔跌28%",
+        "time": "2026-11-02 08:26:25",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917592861.html"
+        "url": "https://finance.eastmoney.com/a/202611023917858554.html"
+      },
+      {
+        "title": "中信建投：中国创新药持续突破 竞争与差异化并存",
+        "time": "2026-11-02 08:17:35",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917856088.html"
+      },
+      {
+        "title": "中信建投：科技巨头绩后波动 关注美国中期选举",
+        "time": "2026-11-02 07:37:48",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917847012.html"
+      },
+      {
+        "title": "资金争相涌入医药基金 有产品单季规模增超40倍",
+        "time": "2026-11-02 07:27:28",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917816061.html"
+      },
+      {
+        "title": "涉嫌定期报告等财务数据虚假记载 奥精医疗被证监会立案！公司此前公告无法按期披露三季报",
+        "time": "2026-11-02 01:39:46",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611013917773088.html"
+      },
+      {
+        "title": "积极买入 密集调研 公募加大医药板块布局力度",
+        "time": "2026-11-02 01:39:09",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917813961.html"
       }
     ],
     "801160": [
       {
-        "title": "国新、诚通出手 三季度加仓名单曝光",
-        "time": "2026-10-31 17:00:00",
+        "title": "千亿级股票回购增持专项贷款来了 这些公司三季度获国新、诚通加仓",
+        "time": "2026-11-02 08:28:06",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917614151.html"
+        "url": "https://finance.eastmoney.com/a/202611023917850153.html"
       },
       {
-        "title": "国家电投山东海阳核电项目三期工程开工建设",
-        "time": "2026-10-31 15:41:34",
+        "title": "从戈壁风光到绿色算力 新疆探索算电协同发展新路径",
+        "time": "2026-11-02 07:51:31",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917597897.html"
+        "url": "https://finance.eastmoney.com/a/202611023917824627.html"
       },
       {
-        "title": "上海电气与宁德时代签署战略合作协议 在算电协同等七大领域深化合作",
-        "time": "2026-10-31 12:58:00",
+        "title": "被责令改正！核电龙头中国核建收监管函 股价较年内高点已“腰斩”",
+        "time": "2026-11-02 00:16:31",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917582836.html"
-      },
-      {
-        "title": "华能水电整合清洁能源资产 拟87亿元收购控股股东旗下公司",
-        "time": "2026-10-31 10:59:24",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917562222.html"
+        "url": "https://finance.eastmoney.com/a/202611023917809140.html"
       }
     ],
     "801170": [
       {
-        "title": "俄罗斯称打击乌克兰能源和物流基础设施",
-        "time": "2026-10-31 21:55:07",
+        "title": "传化智联在淄博投资成立资产运营公司",
+        "time": "2026-11-02 08:57:09",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917649997.html"
+        "url": "https://finance.eastmoney.com/a/202611023917869570.html"
       },
       {
-        "title": "全球多地码头工人抗议用港口运武器",
-        "time": "2026-10-31 19:51:58",
+        "title": "维通利：墨西哥基地已完成厂房租赁，生产线筹建工作稳步开展",
+        "time": "2026-11-02 08:43:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917634594.html"
+        "url": "https://finance.eastmoney.com/a/202611023917865738.html"
       },
       {
-        "title": "印度取消汽油出口税 上调航空燃油和柴油出口税",
-        "time": "2026-10-31 17:43:30",
+        "title": "巴西石油公司将航空煤油价格上调7.2% 11月1日起生效",
+        "time": "2026-11-02 01:03:32",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917617984.html"
+        "url": "https://finance.eastmoney.com/a/202611023917811275.html"
       },
       {
-        "title": "首款国产新能源公务机已进入研发周期",
-        "time": "2026-10-31 17:29:38",
+        "title": "全国社会物流总额前三季度同比增长4.9%",
+        "time": "2026-11-02 00:05:04",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917614854.html"
+        "url": "https://finance.eastmoney.com/a/202611023917807617.html"
       },
       {
-        "title": "加政府推动提升港口吞吐能力以降低对美出口依赖",
-        "time": "2026-10-31 17:04:12",
+        "title": "也门亚丁一军事设施附近地区遭导弹袭击",
+        "time": "2026-11-02 00:01:48",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917614369.html"
+        "url": "https://finance.eastmoney.com/a/202611023917807132.html"
       },
       {
-        "title": "教育部职教发展中心与京东物流联手推进新型智能物流人才培养项目 3年内预计覆盖超百所院校",
-        "time": "2026-10-31 13:39:00",
+        "title": "中国援斯里兰卡灾后桥梁重建紧急援助项目开工",
+        "time": "2026-11-01 23:20:16",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917588531.html"
-      },
-      {
-        "title": "上海数据交易所已核发首批15份数据产权登记凭证",
-        "time": "2026-10-31 11:42:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917573792.html"
-      },
-      {
-        "title": "今年前三季度 三大航司每运送一名旅客亏损23元",
-        "time": "2026-10-31 10:06:57",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610303916918076.html"
-      },
-      {
-        "title": "10月中国制造业采购经理指数公布 景气呈季节性回调",
-        "time": "2026-10-31 09:33:37",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917521873.html"
+        "url": "https://finance.eastmoney.com/a/202611013917799622.html"
       }
     ],
     "801180": [
       {
-        "title": "中指研究院：前10月100家房企销售总额为25370.6亿元 千亿房企6家",
-        "time": "2026-10-31 20:08:00",
+        "title": "中信证券：消费板块当前更具左侧配置价值 短期优先布局周期反转方向",
+        "time": "2026-11-02 08:37:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917635591.html"
+        "url": "https://finance.eastmoney.com/a/202611023917864923.html"
       },
       {
-        "title": "十月土拍“秋意”浓 300城平均溢价率跌至年内低点",
-        "time": "2026-10-31 10:11:41",
+        "title": "“金九银十”收官 二手房市场成交韧性延续",
+        "time": "2026-11-02 01:22:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917526529.html"
-      },
-      {
-        "title": "深南电路：FC-BGA类封装基板已具备26层及以下产品批量生产能力",
-        "time": "2026-11-01 00:01:32",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20261101/c681325546.shtml"
+        "url": "https://finance.eastmoney.com/a/202611023917818383.html"
       }
     ],
     "801200": [
       {
-        "title": "“冷柜变烤箱”的启示",
-        "time": "2026-11-01 07:25:04",
+        "title": "《清明上河图》化作赛博汴京 没有“321上链接”：京东“双11”AI晚会试水可报价的内容生意",
+        "time": "2026-11-02 08:46:02",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202611013917662193.html"
+        "url": "https://finance.eastmoney.com/a/202611023917809477.html"
+      },
+      {
+        "title": "扣非净利亏损2.6亿元 捧红贾乃亮的遥望科技不赚钱",
+        "time": "2026-11-02 08:24:58",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611013917736436.html"
+      },
+      {
+        "title": "告别节点式冲量 新能源汽车消费找新方向",
+        "time": "2026-11-02 07:10:00",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917839590.html"
       }
     ],
     "801210": [
       {
-        "title": "商务部：积极做好扩消费稳外贸稳外资、多双边经贸合作等重点工作",
-        "time": "2026-10-31 18:38:00",
+        "title": "外卖告别“越便宜越好”",
+        "time": "2026-11-02 07:59:09",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917623986.html"
+        "url": "https://finance.eastmoney.com/a/202611023917831273.html"
       },
       {
-        "title": "教育部职教发展中心与京东物流联手推进新型智能物流人才培养项目 3年内预计覆盖超百所院校",
-        "time": "2026-10-31 13:39:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917588531.html"
-      },
-      {
-        "title": "四川华蓥大摆荡事故调查报告公布，两人被移送司法",
-        "time": "2026-10-31 12:49:23",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20261031/c681323873.shtml"
-      },
-      {
-        "title": "【超400家单位参展 今年中国国际教育展规模创五年来新高】作为第27届中国国际教育交流年会的重要活动之一，2026中国国",
-        "time": "2026-11-01 08:44:03",
+        "title": "【瑞士联邦主席兼经济、教育和研究部部长帕姆兰率教育科研界代表团到访教育部】10月31日，瑞士联邦主席兼经济、教育和研究部",
+        "time": "2026-11-02 09:17:04",
         "source": "新浪财经",
         "url": ""
       }
     ],
     "801230": [
       {
-        "title": "多毒株活跃 今年流感季提前！最新提示",
-        "time": "2026-11-01 04:10:38",
+        "title": "人工智能“闯祸” 保险赔吗",
+        "time": "2026-11-02 08:13:50",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917657191.html"
+        "url": "https://finance.eastmoney.com/a/202611023917830641.html"
       },
       {
-        "title": "10月PMI进入收缩区间 受季节性因素影响企业生产经营放缓",
-        "time": "2026-11-01 00:40:00",
+        "title": "好空气卖出好价钱",
+        "time": "2026-11-02 08:12:08",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917622255.html"
+        "url": "https://finance.eastmoney.com/a/202611023917830565.html"
       },
       {
-        "title": "长鑫科技：已与多家头部客户协商长期供货协议",
-        "time": "2026-10-31 17:44:46",
+        "title": "北交所持续增强市场活力韧性 又有2家券商获批做市业务资格",
+        "time": "2026-11-02 07:25:30",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917617424.html"
-      },
-      {
-        "title": "山西前三季度煤层气产量创新高",
-        "time": "2026-10-31 11:51:16",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917574385.html"
-      },
-      {
-        "title": "券商称韩国KOSPI被严重低估 建议6000点下方逐步加仓",
-        "time": "2026-11-01 00:23:02",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20261101/c681325612.shtml"
-      },
-      {
-        "title": "【券商称韩国KOSPI被严重低估 建议6000点下方逐步加仓】接下来一周（11月2日–6日），韩国股市预计将受到美国中期",
-        "time": "2026-11-01 08:20:34",
-        "source": "新浪财经",
-        "url": ""
+        "url": "https://finance.eastmoney.com/a/202611023917812222.html"
       }
     ],
     "801710": [
       {
-        "title": "TCL华星t8项目设备正式搬入",
-        "time": "2026-10-31 19:19:00",
+        "title": "美股能源储运与建筑材料方向表现亮眼，哪些A股有望共享景气传导？丨隔岸观涨",
+        "time": "2026-11-02 08:42:08",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917628998.html"
+        "url": "https://finance.eastmoney.com/a/202611023917859481.html"
       }
     ],
     "801720": [
       {
-        "title": "载人月球探测工程采用“两次发射、环月对接”方案",
-        "time": "2026-11-01 08:10:24",
+        "title": "美股能源储运与建筑材料方向表现亮眼，哪些A股有望共享景气传导？丨隔岸观涨",
+        "time": "2026-11-02 08:42:08",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202611013917668356.html"
+        "url": "https://finance.eastmoney.com/a/202611023917859481.html"
       },
       {
-        "title": "长鑫科技：基于4F2架构的第六代技术平台DRAM完成工程样片验证",
-        "time": "2026-10-31 20:04:33",
+        "title": "长鑫科技：基于4F架构的第六代技术平台DRAM完成工程样片验证",
+        "time": "2026-11-02 08:01:27",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917635428.html"
+        "url": "https://finance.eastmoney.com/a/202611023917852268.html"
       },
       {
-        "title": "中企承建乌拉圭500千伏输变电环网正式交付",
-        "time": "2026-10-31 20:04:07",
+        "title": "AI算力与新能源协同驱动 A股三季报“动能向新”",
+        "time": "2026-11-02 06:36:39",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917635318.html"
-      },
-      {
-        "title": "德国纽伦堡国际发明展聚焦绿色与智能创新",
-        "time": "2026-10-31 18:16:33",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917618518.html"
-      },
-      {
-        "title": "国家电投山东海阳核电项目三期工程开工建设",
-        "time": "2026-10-31 15:41:34",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917597897.html"
-      },
-      {
-        "title": "深中通道累计车流量突破8000万车次",
-        "time": "2026-10-31 15:19:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917596590.html"
-      },
-      {
-        "title": "姚家平水利枢纽工程成功截流 进入主体施工阶段",
-        "time": "2026-10-31 13:47:07",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917589120.html"
-      },
-      {
-        "title": "官方披露：将有两名中国人登陆月球",
-        "time": "2026-10-31 13:21:29",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917586346.html"
-      },
-      {
-        "title": "东方证券孙金霞：中国具有低利率与完备的基础设施体系等多重优势，为科技产业长期发展提供基础",
-        "time": "2026-10-31 11:48:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917574228.html"
-      },
-      {
-        "title": "聚焦前沿技术、工程实践等 第七届载人航天学术大会开幕",
-        "time": "2026-10-31 10:07:32",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917525813.html"
-      },
-      {
-        "title": "【美方分析报告称伊朗袭击造成中东地区美军基地严重损失】美国方面10月31日发布分析报告称，截至8月底，伊朗或伊朗支持的民",
-        "time": "2026-11-01 08:16:39",
-        "source": "新浪财经",
-        "url": ""
+        "url": "https://finance.eastmoney.com/a/202611023917826388.html"
       }
     ],
     "801730": [
       {
-        "title": "首款国产新能源公务机已进入研发周期",
-        "time": "2026-10-31 17:29:38",
+        "title": "比亚迪：10月新能源汽车销售490168辆",
+        "time": "2026-11-02 08:15:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917614854.html"
+        "url": "https://finance.eastmoney.com/a/202611023917857647.html"
       },
       {
-        "title": "利好来了！北京重磅发布！事关千亿产业",
-        "time": "2026-10-31 16:27:20",
+        "title": "从戈壁风光到绿色算力 新疆探索算电协同发展新路径",
+        "time": "2026-11-02 07:51:31",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917610869.html"
+        "url": "https://finance.eastmoney.com/a/202611023917824627.html"
       },
       {
-        "title": "小米17亿入股欣旺达动力成第三大股东 欣旺达终止港股IPO计划",
-        "time": "2026-10-31 13:14:28",
+        "title": "亚太产业链供应链韧性增强 合作之路越走越实",
+        "time": "2026-11-02 07:19:52",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917584387.html"
+        "url": "https://finance.eastmoney.com/a/202611023917813286.html"
       },
       {
-        "title": "上海电气与宁德时代签署战略合作协议 在算电协同等七大领域深化合作",
-        "time": "2026-10-31 12:58:00",
+        "title": "告别节点式冲量 新能源汽车消费找新方向",
+        "time": "2026-11-02 07:10:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917582836.html"
+        "url": "https://finance.eastmoney.com/a/202611023917839590.html"
       },
       {
-        "title": "宁德时代曾毓群：电池技术“还不够好” 正用AI加速电化学领域发现",
-        "time": "2026-10-31 12:45:19",
+        "title": "AI算力与新能源协同驱动 A股三季报“动能向新”",
+        "time": "2026-11-02 06:36:39",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917582269.html"
-      },
-      {
-        "title": "Q3亏损环比收窄 隆基绿能迎来“修复起点”",
-        "time": "2026-10-31 12:09:24",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917575561.html"
-      },
-      {
-        "title": "北京：培育高温膜燃料电池、固体氧化物燃料电池、氢燃机等前沿赛道创新主体",
-        "time": "2026-10-31 11:41:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917573683.html"
-      },
-      {
-        "title": "北京：做强燃料电池汽车全产业链",
-        "time": "2026-10-31 11:40:20",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917573569.html"
-      },
-      {
-        "title": "北京：力争到2030年全市氢能产业链规模突破400亿元",
-        "time": "2026-10-31 11:40:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917573441.html"
-      },
-      {
-        "title": "利元亨全固态电池整线设备成功出机国内头部客户",
-        "time": "2026-10-31 10:31:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917542480.html"
-      },
-      {
-        "title": "跨界光伏！深南电A拟收购天合跟踪控股权 预计构成重大资产重组",
-        "time": "2026-10-31 09:39:18",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610303916944124.html"
+        "url": "https://finance.eastmoney.com/a/202611023917826388.html"
       }
     ],
     "801740": [
       {
-        "title": "美方分析报告称伊朗袭击造成中东地区美军基地严重损失",
-        "time": "2026-11-01 00:21:23",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20261101/c681325609.shtml"
-      },
-      {
-        "title": "谷歌据称洽谈参与“金穹”导弹防御计划 或提供数据安全技术支持",
-        "time": "2026-11-01 03:35:48",
+        "title": "千亿级股票回购增持专项贷款来了 这些公司三季度获国新、诚通加仓",
+        "time": "2026-11-02 08:28:06",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202611013917659540.html"
+        "url": "https://finance.eastmoney.com/a/202611023917850153.html"
       },
       {
-        "title": "俄罗斯称打击乌克兰能源和物流基础设施",
-        "time": "2026-10-31 21:55:07",
+        "title": "一线调研：向天向海向AI 商业卫星重构空天信息应用版图",
+        "time": "2026-11-02 07:33:01",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917649997.html"
+        "url": "https://finance.eastmoney.com/a/202611023917836381.html"
       },
       {
-        "title": "俄称打击乌基础设施 乌称击退俄进攻",
-        "time": "2026-10-31 18:10:12",
+        "title": "伊朗革命卫队情报机构宣布逮捕一名间谍",
+        "time": "2026-11-02 07:29:51",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917618498.html"
+        "url": "https://finance.eastmoney.com/a/202611023917846586.html"
       },
       {
-        "title": "国新、诚通出手 三季度加仓名单曝光",
-        "time": "2026-10-31 17:00:00",
+        "title": "伊朗革命卫队逮捕一名间谍 指其涉嫌泄露军工情报",
+        "time": "2026-11-02 02:49:30",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917614151.html"
+        "url": "https://finance.eastmoney.com/a/202611023917820853.html"
       },
       {
-        "title": "哥伦比亚国防部宣布对与委内瑞拉接壤边境城市实施军事管制",
-        "time": "2026-10-31 16:59:09",
+        "title": "也门亚丁一军事设施附近地区遭导弹袭击",
+        "time": "2026-11-02 00:01:48",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917612963.html"
+        "url": "https://finance.eastmoney.com/a/202611023917807132.html"
       },
       {
-        "title": "全球首个天地一体化太空算力云平台在京发布 覆盖40余颗卫星算力资源",
-        "time": "2026-10-31 16:06:00",
+        "title": "沙特主导联军表示：已拦截并摧毁一枚由也门胡塞武装向沙特南部地区发射的弹道导弹",
+        "time": "2026-11-01 23:48:54",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917607227.html"
-      },
-      {
-        "title": "俄外长拉夫罗夫：乌方破坏会谈氛围 俄美根本问题未解",
-        "time": "2026-10-31 15:36:55",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917597441.html"
-      },
-      {
-        "title": "总值21亿美元、盟友“买单” 美国批准对乌500枚“爱国者”导弹军售",
-        "time": "2026-10-31 10:02:40",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917525595.html"
-      },
-      {
-        "title": "【美方分析报告称伊朗袭击造成中东地区美军基地严重损失】美国方面10月31日发布分析报告称，截至8月底，伊朗或伊朗支持的民",
-        "time": "2026-11-01 08:16:39",
-        "source": "新浪财经",
-        "url": ""
+        "url": "https://finance.eastmoney.com/a/202611013917806397.html"
       }
     ],
     "801750": [
       {
-        "title": "经济日报：当AI“吞噬”内存",
-        "time": "2026-11-01 06:55:04",
+        "title": "上海人工智能行业协会秘书长钟俊浩：AI眼镜不能“无节制记录” 数据全部交由企业掌控已越隐私红线",
+        "time": "2026-11-02 09:03:15",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202611013917660325.html"
+        "url": "https://finance.eastmoney.com/a/202611023917869356.html"
       },
       {
-        "title": "环球下周看点：AI热潮遇考验 美国中期选举、非农与苹果财报接连来袭",
-        "time": "2026-11-01 06:40:03",
+        "title": "3D科学计算机给分子“拍高清电影”",
+        "time": "2026-11-02 08:56:55",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202611013917659992.html"
+        "url": "https://finance.eastmoney.com/a/202611023917868932.html"
       },
       {
-        "title": "AI巨头融资压力显现？OpenAI据称将融资目标下调百亿美元",
-        "time": "2026-11-01 00:50:24",
+        "title": "当AI开始“造芯” 人类最需要哪种能力？",
+        "time": "2026-11-02 08:52:41",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202611013917658270.html"
+        "url": "https://finance.eastmoney.com/a/202611013917715377.html"
       },
       {
-        "title": "斥资万亿日元 村田加码MLCC 锚定AI服务器、算力硬件市场",
-        "time": "2026-11-01 00:39:34",
+        "title": "《清明上河图》化作赛博汴京 没有“321上链接”：京东“双11”AI晚会试水可报价的内容生意",
+        "time": "2026-11-02 08:46:02",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917631887.html"
+        "url": "https://finance.eastmoney.com/a/202611023917809477.html"
       },
       {
-        "title": "2026中国自动化大会在京开幕",
-        "time": "2026-10-31 20:42:34",
+        "title": "人工智能“闯祸” 保险赔吗",
+        "time": "2026-11-02 08:13:50",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917637815.html"
+        "url": "https://finance.eastmoney.com/a/202611023917830641.html"
       },
       {
-        "title": "上海首个数据产权登记服务中心落地虹桥 打造国际数据合作交流枢纽",
-        "time": "2026-10-31 19:38:10",
+        "title": "AI助力药企开拓“药品+数字服务”新空间",
+        "time": "2026-11-02 07:54:18",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917630833.html"
+        "url": "https://finance.eastmoney.com/a/202611023917824357.html"
       },
       {
-        "title": "29亿美元到账 快手可灵投后估值179亿美元",
-        "time": "2026-10-31 19:20:01",
+        "title": "从戈壁风光到绿色算力 新疆探索算电协同发展新路径",
+        "time": "2026-11-02 07:51:31",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917628422.html"
+        "url": "https://finance.eastmoney.com/a/202611023917824627.html"
       },
       {
-        "title": "德国纽伦堡国际发明展聚焦绿色与智能创新",
-        "time": "2026-10-31 18:16:33",
+        "title": "存力筑基 共启AI新机遇：2026数据存储产业大会举办",
+        "time": "2026-11-02 07:46:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917618518.html"
+        "url": "https://finance.eastmoney.com/a/202611013917798337.html"
       },
       {
-        "title": "第92次中国改革国际论坛在海口举行",
-        "time": "2026-10-31 16:31:00",
+        "title": "光通信企业需平衡扩产与研发投入力度",
+        "time": "2026-11-02 07:44:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917609269.html"
+        "url": "https://finance.eastmoney.com/a/202611023917813659.html"
       },
       {
-        "title": "智能液冷产业项目落户张家港 总投资11亿元",
-        "time": "2026-10-31 16:13:58",
+        "title": "多只QDII基金近一年净值涨逾30% AI板块短期调整不改长期景气",
+        "time": "2026-11-02 07:13:09",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917608268.html"
+        "url": "https://finance.eastmoney.com/a/202611023917815051.html"
       },
       {
-        "title": "全球首个天地一体化太空算力云平台在京发布 覆盖40余颗卫星算力资源",
-        "time": "2026-10-31 16:06:00",
+        "title": "国产IP核：幕后英雄 加快发展",
+        "time": "2026-11-02 07:10:26",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917607227.html"
+        "url": "https://finance.eastmoney.com/a/202611023917814978.html"
       },
       {
-        "title": "新华社：AI投资回报隐忧折射美国经济风险",
-        "time": "2026-10-31 15:36:00",
+        "title": "AI算力与新能源协同驱动 A股三季报“动能向新”",
+        "time": "2026-11-02 06:36:39",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917597333.html"
+        "url": "https://finance.eastmoney.com/a/202611023917826388.html"
       }
     ],
     "801760": [
       {
-        "title": "《三星堆：未来往事》之后 AI院线电影何去何从？",
-        "time": "2026-10-31 11:08:00",
+        "title": "《影之刃零》登顶Steam榜首 上线20分钟在线人数破十万 ！",
+        "time": "2026-11-02 01:35:14",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917565384.html"
-      },
-      {
-        "title": "起底银行工资代发业务灰色产业链：中介自荐“凑业绩”",
-        "time": "2026-10-31 09:19:38",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610303916720482.html"
+        "url": "https://finance.eastmoney.com/a/202611013917800662.html"
       }
     ],
     "801770": [
       {
-        "title": "2026世界物联网博览会在无锡开幕",
-        "time": "2026-10-31 20:49:00",
+        "title": "千亿级股票回购增持专项贷款来了 这些公司三季度获国新、诚通加仓",
+        "time": "2026-11-02 08:28:06",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917638121.html"
+        "url": "https://finance.eastmoney.com/a/202611023917850153.html"
       },
       {
-        "title": "上海首座外海大型灯浮完成抛设",
-        "time": "2026-10-31 17:56:50",
+        "title": "光通信企业需平衡扩产与研发投入力度",
+        "time": "2026-11-02 07:44:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917618290.html"
+        "url": "https://finance.eastmoney.com/a/202611023917813659.html"
       },
       {
-        "title": "国新、诚通出手 三季度加仓名单曝光",
-        "time": "2026-10-31 17:00:00",
+        "title": "AI算力与新能源协同驱动 A股三季报“动能向新”",
+        "time": "2026-11-02 06:36:39",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917614151.html"
+        "url": "https://finance.eastmoney.com/a/202611023917826388.html"
       },
       {
-        "title": "美国将“封杀”中国实验室 意在让“检测回流” 商务部回应",
-        "time": "2026-10-31 11:04:00",
+        "title": "创业板公司主业盈利能力提升",
+        "time": "2026-11-02 06:20:21",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917563080.html"
+        "url": "https://finance.eastmoney.com/a/202611023917814760.html"
       },
       {
-        "title": "华为畅享100系列正式开售",
-        "time": "2026-10-31 09:45:53",
+        "title": "“易中天”前三季度业绩出炉 营收净利均实现双增长",
+        "time": "2026-11-02 04:15:12",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917522088.html"
+        "url": "https://finance.eastmoney.com/a/202611023917823722.html"
       },
       {
-        "title": "额度已经用完！剑桥科技拟再投入17.69亿港元扩产光模块 Q3单季净利同比大涨213%",
-        "time": "2026-10-31 09:37:25",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610303916950024.html"
+        "title": "回天新材：半导体封装用胶部分产品实现批量供货，当前业务体量相对较小",
+        "time": "2026-11-02 01:10:00",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681336339.shtml"
       }
     ],
     "801780": [
       {
-        "title": "大额存单回来了 银行密集上线",
-        "time": "2026-10-31 20:43:12",
+        "title": "政策利率换锚后 债市、信贷定价将迎哪些变化？",
+        "time": "2026-11-02 08:51:27",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917637535.html"
+        "url": "https://finance.eastmoney.com/a/202611013917761993.html"
       },
       {
-        "title": "欧洲中央银行行长拉加德：全球经济展现出韧性 但仍面对多重挑战",
-        "time": "2026-10-31 18:56:13",
+        "title": "好空气卖出好价钱",
+        "time": "2026-11-02 08:12:08",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917624140.html"
+        "url": "https://finance.eastmoney.com/a/202611023917830565.html"
       },
       {
-        "title": "中信证券：银行板块有望从“高股息防御资产”向“高确定性权益资产”重估，预计全年仍将演绎估值上行方向",
-        "time": "2026-10-31 16:52:00",
+        "title": "银行净息差回升验证行业韧性",
+        "time": "2026-11-02 08:11:08",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917611653.html"
+        "url": "https://finance.eastmoney.com/a/202611023917830932.html"
       },
       {
-        "title": "营收利润双增长！42家A股上市银行三季报悉数“交卷”",
-        "time": "2026-10-31 16:20:01",
+        "title": "中泰证券：银行股资产质量稳定 全年业绩确定性强",
+        "time": "2026-11-02 08:04:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917608351.html"
+        "url": "https://finance.eastmoney.com/a/202611023917853963.html"
       },
       {
-        "title": "国有六大行谁更强？ 从三季度业绩数据看实力排名",
-        "time": "2026-10-31 13:03:06",
+        "title": "政策成效初显 精准减轻刚需购房群体负担",
+        "time": "2026-11-02 07:37:02",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917582756.html"
+        "url": "https://finance.eastmoney.com/a/202611023917844915.html"
       },
       {
-        "title": "工行回应“债大于贷”：增量结构变化正成为影响息差的新变量",
-        "time": "2026-10-31 12:37:00",
+        "title": "前三季度国有六大行均实现营收净利同比双增",
+        "time": "2026-11-02 07:35:47",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917577142.html"
+        "url": "https://finance.eastmoney.com/a/202611023917844891.html"
       },
       {
-        "title": "起底银行工资代发业务灰色产业链：中介自荐“凑业绩”",
-        "time": "2026-10-31 09:19:38",
+        "title": "红利逻辑持续强化 银行板块迎资金共振",
+        "time": "2026-11-02 07:12:15",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610303916720482.html"
+        "url": "https://finance.eastmoney.com/a/202611023917814363.html"
+      },
+      {
+        "title": "上市银行三季报“交卷” 息差企稳夯实营收基本盘 其他非息收入贡献增量",
+        "time": "2026-11-02 05:04:25",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917814835.html"
+      },
+      {
+        "title": "西太平洋银行全财年净利润68.1亿澳元 预估69.3亿澳元",
+        "time": "2026-11-02 04:37:20",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917824989.html"
+      },
+      {
+        "title": "人民币兑美元中间价报6.7146，较上日调低8点",
+        "time": "2026-11-02 01:15:22",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681337150.shtml"
       }
     ],
     "801790": [
       {
-        "title": "中信证券：银行板块有望从“高股息防御资产”向“高确定性权益资产”重估，预计全年仍将演绎估值上行方向",
-        "time": "2026-10-31 16:52:00",
+        "title": "华创证券：支撑A股反弹的理由进一步强化",
+        "time": "2026-11-02 08:58:29",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917611653.html"
+        "url": "https://finance.eastmoney.com/a/202611023917869291.html"
       },
       {
-        "title": "开源证券韦冀星：科技投资由“炒概念”转向“数订单”",
-        "time": "2026-10-31 14:42:50",
+        "title": "深交所：港股通标的证券名单调入深演智能（新）",
+        "time": "2026-11-02 08:50:24",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917594038.html"
+        "url": "https://finance.eastmoney.com/a/202611023917868230.html"
       },
       {
-        "title": "广发证券刘晨明：大盘蓝筹估值不高 市场信心修复具备坚实基础",
-        "time": "2026-10-31 13:30:09",
+        "title": "单季浮亏超3500亿 险资难当剩余两月反攻主力",
+        "time": "2026-11-02 08:49:04",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917587680.html"
+        "url": "https://finance.eastmoney.com/a/202611013917770056.html"
       },
       {
-        "title": "京东方A前三季度营收1518.09亿元 社保基金等新进前十大股东",
-        "time": "2026-10-31 12:34:00",
+        "title": "中信证券：消费板块当前更具左侧配置价值 短期优先布局周期反转方向",
+        "time": "2026-11-02 08:37:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917577882.html"
+        "url": "https://finance.eastmoney.com/a/202611023917864923.html"
       },
       {
-        "title": "“养老金要崩盘”“年轻人养不起老人”？人民日报：挑动对立、制造焦虑",
-        "time": "2026-10-31 12:15:00",
+        "title": "中信证券：11月仍应以进攻思路寻找结构性机会",
+        "time": "2026-11-02 08:30:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917576333.html"
+        "url": "https://finance.eastmoney.com/a/202611023917860494.html"
       },
       {
-        "title": "东方证券孙金霞：中国具有低利率与完备的基础设施体系等多重优势，为科技产业长期发展提供基础",
-        "time": "2026-10-31 11:48:00",
+        "title": "中信证券：预计原油价格在低库存与高扰动预期下依然易涨难跌",
+        "time": "2026-11-02 08:17:35",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917574228.html"
+        "url": "https://finance.eastmoney.com/a/202611023917856264.html"
       },
       {
-        "title": "东方证券孙金霞：美国AI叙事面临高利率与投资回报双重约束，科技投资的可持续性正在受到检验",
-        "time": "2026-10-31 11:46:00",
+        "title": "中信证券：看好中期选举之后美股科技反弹的可能 建议半导体硬件为首要方向",
+        "time": "2026-11-02 08:16:17",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917574120.html"
+        "url": "https://finance.eastmoney.com/a/202611023917856160.html"
       },
       {
-        "title": "上海数据交易所已核发首批15份数据产权登记凭证",
-        "time": "2026-10-31 11:42:00",
+        "title": "人工智能“闯祸” 保险赔吗",
+        "time": "2026-11-02 08:13:50",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917573792.html"
+        "url": "https://finance.eastmoney.com/a/202611023917830641.html"
       },
       {
-        "title": "券商称韩国KOSPI被严重低估 建议6000点下方逐步加仓",
-        "time": "2026-11-01 00:23:02",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20261101/c681325612.shtml"
+        "title": "好空气卖出好价钱",
+        "time": "2026-11-02 08:12:08",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917830565.html"
       },
       {
-        "title": "券商首席：A股将迎来3大中长期利好",
-        "time": "2026-10-31 23:51:57",
-        "source": "同花顺",
-        "url": "https://news.10jqka.com.cn/20261101/c681325507.shtml"
+        "title": "中泰证券：银行股资产质量稳定 全年业绩确定性强",
+        "time": "2026-11-02 08:04:00",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917853963.html"
       },
       {
-        "title": "【券商称韩国KOSPI被严重低估 建议6000点下方逐步加仓】接下来一周（11月2日–6日），韩国股市预计将受到美国中期",
-        "time": "2026-11-01 08:20:34",
-        "source": "新浪财经",
-        "url": ""
+        "title": "券商三季度合计新进持有85只重仓股 钢铁板块受到较高关注",
+        "time": "2026-11-02 07:39:00",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917819625.html"
+      },
+      {
+        "title": "基本面有支撑、制度有红利、长钱有后劲 A股多维积蓄向好发展动能",
+        "time": "2026-11-02 07:38:00",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917819731.html"
       }
     ],
     "801880": [
       {
-        "title": "奇瑞高管：解决国内车市盈利问题不能靠简单低价竞争",
-        "time": "2026-10-31 18:29:41",
+        "title": "小鹏MONA L03 10月交付超20000台",
+        "time": "2026-11-02 09:04:24",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917620469.html"
+        "url": "https://finance.eastmoney.com/a/202611023917872473.html"
       },
       {
-        "title": "利好来了！北京重磅发布！事关千亿产业",
-        "time": "2026-10-31 16:27:20",
+        "title": "比亚迪：10月新能源汽车销售490168辆",
+        "time": "2026-11-02 08:15:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917610869.html"
+        "url": "https://finance.eastmoney.com/a/202611023917857647.html"
       },
       {
-        "title": "小米17亿入股欣旺达动力成第三大股东 欣旺达终止港股IPO计划",
-        "time": "2026-10-31 13:14:28",
+        "title": "告别节点式冲量 新能源汽车消费找新方向",
+        "time": "2026-11-02 07:10:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917584387.html"
+        "url": "https://finance.eastmoney.com/a/202611023917839590.html"
       },
       {
-        "title": "北京：做强燃料电池汽车全产业链",
-        "time": "2026-10-31 11:40:20",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917573569.html"
-      },
-      {
-        "title": "北京：力争到2030年全市氢能产业链规模突破400亿元",
-        "time": "2026-10-31 11:40:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917573441.html"
-      },
-      {
-        "title": "奇瑞高管回应智界获得独立造车资质：要更像新势力 而非“大一号”传统车企",
-        "time": "2026-10-31 11:28:36",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917571569.html"
-      },
-      {
-        "title": "三季度业绩承压 长安汽车智能化子公司拟挂牌引战投",
-        "time": "2026-10-31 10:03:57",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917513191.html"
-      },
-      {
-        "title": "机构预测：2030年中国车企在欧洲销量将达270万辆，37%实现本土生产",
-        "time": "2026-10-31 09:18:00",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917519825.html"
+        "title": "回天新材：半导体封装用胶部分产品实现批量供货，当前业务体量相对较小",
+        "time": "2026-11-02 01:10:00",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681336339.shtml"
       }
     ],
     "801890": [
       {
-        "title": "2026中国自动化大会在京开幕",
-        "time": "2026-10-31 20:42:34",
+        "title": "简智完成A+轮1亿美元融资",
+        "time": "2026-11-02 09:13:43",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917637815.html"
+        "url": "https://finance.eastmoney.com/a/202611023917875990.html"
       },
       {
-        "title": "中企承建乌拉圭500千伏输变电环网正式交付",
-        "time": "2026-10-31 20:04:07",
+        "title": "Meta被曝与中国企业合作开发家用人形机器人",
+        "time": "2026-11-02 09:02:47",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917635318.html"
+        "url": "https://finance.eastmoney.com/a/202611023917871134.html"
       },
       {
-        "title": "11月1日起一批国家标准开始实施",
-        "time": "2026-10-31 18:04:53",
+        "title": "优必选Thinker-Sim具身智能仿真平台发布",
+        "time": "2026-11-02 08:46:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917618312.html"
+        "url": "https://finance.eastmoney.com/a/202611023917866894.html"
       },
       {
-        "title": "涵盖自行车、独轮车等 两项儿童用品国标明起实施",
-        "time": "2026-10-31 13:44:30",
+        "title": "中信证券：11月仍应以进攻思路寻找结构性机会",
+        "time": "2026-11-02 08:30:00",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917588951.html"
+        "url": "https://finance.eastmoney.com/a/202611023917860494.html"
       },
       {
-        "title": "具身智能缝制机器人在河南发布",
-        "time": "2026-10-31 11:20:20",
+        "title": "电子皮肤有望打通物理AI最后一厘米 百亿级市场蓄势待发",
+        "time": "2026-11-02 08:28:02",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917568630.html"
+        "url": "https://finance.eastmoney.com/a/202611023917849582.html"
       },
       {
-        "title": "近50亿元买入两只A股！隧道股份拿下徐工机械4.72%股权 前三季营收净利双降",
-        "time": "2026-10-31 09:28:09",
+        "title": "11月2日投资避雷针：上周五纳指收跌2.9% AI交易遭重挫 英特尔跌28%",
+        "time": "2026-11-02 08:26:25",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610303917219439.html"
-      }
-    ],
-    "801950": [],
-    "801960": [
-      {
-        "title": "11月1日起一批国家标准开始实施",
-        "time": "2026-10-31 18:04:53",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917618312.html"
+        "url": "https://finance.eastmoney.com/a/202611023917858554.html"
       },
       {
-        "title": "原中国石油化工集团公司党组书记、董事长傅成玉接受审查调查",
-        "time": "2026-10-31 17:32:25",
+        "title": "人形机器人从高热走向理性",
+        "time": "2026-11-02 08:13:07",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917614941.html"
+        "url": "https://finance.eastmoney.com/a/202611023917830752.html"
       },
       {
-        "title": "阿布扎比国家石油公司达成协议 将向泰国供应最多200万吨液化天然气",
-        "time": "2026-10-31 16:11:07",
+        "title": "重磅收购！芯片EDA龙头华大九天股价较年内高点回撤37%",
+        "time": "2026-11-02 00:10:31",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917608080.html"
+        "url": "https://finance.eastmoney.com/a/202611013917753885.html"
       },
       {
-        "title": "伊朗战事期间 美石油行业被曝获巨利",
-        "time": "2026-10-31 14:12:14",
+        "title": "全国社会物流总额前三季度同比增长4.9%",
+        "time": "2026-11-02 00:05:04",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917591950.html"
+        "url": "https://finance.eastmoney.com/a/202611023917807617.html"
       },
       {
-        "title": "伊朗称4艘违规穿越海峡油轮爆炸",
-        "time": "2026-10-31 10:01:53",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917525650.html"
-      },
-      {
-        "title": "【阳光私募持仓千余家上市公司 深度梳理16只绩优、超跌、低PE股】2026年A股三季报正式收官，阳光私募持仓浮出水面",
-        "time": "2026-11-01 08:23:28",
+        "title": "【港股开盘：恒生指数涨0.03%，恒生科技指数涨0.55%】MINIMAX-W涨2.79%，比亚迪股份涨2.42%，天数",
+        "time": "2026-11-02 09:21:00",
         "source": "新浪财经",
         "url": ""
       }
     ],
-    "801970": [
+    "801950": [
       {
-        "title": "德国纽伦堡国际发明展聚焦绿色与智能创新",
-        "time": "2026-10-31 18:16:33",
+        "title": "国内商品期货早盘开盘 主力合约涨跌不一",
+        "time": "2026-11-02 09:00:06",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202610313917618518.html"
+        "url": "https://finance.eastmoney.com/a/202611023917869811.html"
+      },
+      {
+        "title": "期市早盘开盘，国内期货主力合约涨跌互现",
+        "time": "2026-11-02 00:59:57",
+        "source": "同花顺",
+        "url": "https://news.10jqka.com.cn/20261102/c681334951.shtml"
       }
     ],
+    "801960": [
+      {
+        "title": "布伦特原油期货跌幅扩大至2%",
+        "time": "2026-11-02 09:12:49",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917874916.html"
+      },
+      {
+        "title": "国内商品期货早盘开盘 主力合约涨跌不一",
+        "time": "2026-11-02 09:00:06",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917869811.html"
+      },
+      {
+        "title": "原油、AI与债券：过去一个月市场交易格局彻底生变？",
+        "time": "2026-11-02 08:54:26",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917868590.html"
+      },
+      {
+        "title": "中信证券：预计原油价格在低库存与高扰动预期下依然易涨难跌",
+        "time": "2026-11-02 08:17:35",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917856264.html"
+      },
+      {
+        "title": "美国已进入冬令时",
+        "time": "2026-11-02 06:08:50",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917835337.html"
+      },
+      {
+        "title": "巴西石油公司将航空煤油价格上调7.2% 11月1日起生效",
+        "time": "2026-11-02 01:03:32",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202611023917811275.html"
+      },
+      {
+        "title": "【沙特阿美入股AI公司】沙特石油巨头沙特阿美11月1日宣布，将持有AI公司HUMAIN49%的股份，注入现金和资产，以帮",
+        "time": "2026-11-02 09:19:47",
+        "source": "新浪财经",
+        "url": ""
+      }
+    ],
+    "801970": [],
     "801980": []
   }
 }
