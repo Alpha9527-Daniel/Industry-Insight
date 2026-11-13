@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-12",
-  "updated": "2026-11-12 02:45",
+  "date": "2026-11-13",
+  "updated": "2026-11-13 02:29",
   "count": 31,
   "industries": [
     {
@@ -102,11 +102,11 @@
       "pePct": 33.61,
       "turnover": 46.09,
       "turnoverPct": 72.62,
-      "roe": 3.85,
-      "roeYoY": 0.52,
+      "roe": 3.87,
+      "roeYoY": 0.54,
       "roePct": 63.16,
-      "roeCap": 17.01,
-      "roeCapYoY": 9.19,
+      "roeCap": 16.71,
+      "roeCapYoY": 8.89,
       "roeCapPct": 100.0,
       "r1w": 3.65,
       "r1m": -10.88,
